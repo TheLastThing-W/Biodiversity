@@ -64,9 +64,11 @@
 
 <ItemGroup>
   <Folder Include="assets\bdherb\" />
-  <Folder Include="assets\bdtree\" />
   <Folder Include="assets\bdflower\" />
   <Folder Include="assets\bdshrub\" />
+  <Folder Include="assets\bdcrop\" />
+  <Folder Include="assets\bdorchard\" />
+  <Folder Include="assets\bdtree\textures\block\wood\narrow\" />
   <Folder Include="Resources\wildcraftfruit_1.4.4\assets\wildcraftfruit\shapes\block\trellis\metal\" />
 </ItemGroup>
 

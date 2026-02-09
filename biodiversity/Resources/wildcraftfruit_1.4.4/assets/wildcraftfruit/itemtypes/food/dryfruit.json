@@ -96,7 +96,7 @@
     "items": [ "*" ],
     "wildcraftfruit": [ "*" ]
   },
-  "storageFlags": 33,
+  
   "nutritionPropsByType": {
     "*-juniper": {
       "satiety": 40,

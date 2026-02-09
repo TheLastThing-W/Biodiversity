@@ -13,7 +13,7 @@
     "attributes": {
         "handbook": {
             "groupBy": ["leaves-*"],
-	    "extraSections": [ { "title": "wildcrafttree:handbook-item-notes", "text": "wildcrafttree:handbook-item-leaves" } ]
+	    "extraSections": [ { "title": "handbook-item-notes", "text": "handbook-item-leaves" } ]
         },
         "treeFellingGroupCodeByType": {
             "*-placed-willow": "3willow",
@@ -97,10 +97,14 @@
     },
     "variantgroups": [
         { "code": "type", "states": ["grown", "placed", "placed1", "placed2", "placed3", "placed4", "placed5", "placed6", "placed7"] },
-        { "code": "wood", "states": ["bluespruce", "wiliwili", "crownofthorns", "brideinwhite", "alder", "weepingwillow", "redwillow", "pyramidalpoplar", "aspen", "heather", "sourwood", "mousetrap"], "loadFromProperties": "wildcrafttree:block/wood" }
+        { "code": "wood", "states": ["bluespruce", "wiliwili", "crownofthorns", "brideinwhite", "alder", "weepingwillow", "redwillow", "pyramidalpoplar", "aspen", "heather", "sourwood", "mousetrap"], "loadFromProperties": "block/wood" }
     ],
     "skipVariants": ["*-chlorociboria", "*-petrified", "*-charred"],
-    "creativeinventory": { "general": ["leaves-placed-*"], "flora": ["leaves-placed-*"], "wildcrafttree": ["leaves-placed-*"] },
+  "creativeinventory": {
+    "general": [ "leaves-placed-*" ],
+    "flora": [ "leaves-placed-*" ],
+    "bdtree": [ "leaves-placed-*" ]
+  },
     "walkspeedmultiplierByType": {
             "*-honeylocust": 0.55,
             "*-crownofthorns": 0.55,
@@ -176,10 +180,10 @@
     },
     "textures": {
 	"largeleavesByType": {
-	    "*": { base: "wildcrafttree:block/plant/leaves/large/{wood}*" },
+	    "*": { base: "block/plant/leaves/large/{wood}*" },
 	},
         "smallleavesByType": {
-            "*": { "base": "wildcrafttree:block/plant/leaves/small/{wood}*" }
+            "*": { "base": "block/plant/leaves/small/{wood}*" }
         }
     },
     "sideopaque": {
@@ -202,136 +206,136 @@
 	dropsByType: {
 		"*-douglasfir": [
 			{ type: "item", code: "game:stick", quantity: { avg: 1, var: 0 }  },
-			{ type: "item", code: "wildcrafttree:treeseed-douglasfir", quantity: { avg: 0.01, var: 0 }  },
+			{ type: "item", code: "treeseed-douglasfir", quantity: { avg: 0.01, var: 0 }  },
 		],
 		"*-redcedar": [
 			{ type: "item", code: "game:stick", quantity: { avg: 1, var: 0 }  },
-			{ type: "item", code: "wildcrafttree:treeseed-redcedar", quantity: { avg: 0.01, var: 0 }  },
+			{ type: "item", code: "treeseed-redcedar", quantity: { avg: 0.01, var: 0 }  },
 		],
 		"*-banyan": [
 			{ type: "item", code: "game:stick", quantity: { avg: 1, var: 0 }  },
-			{ type: "item", code: "wildcrafttree:treeseed-banyan", quantity: { avg: 0.01, var: 0 }  },
+			{ type: "item", code: "treeseed-banyan", quantity: { avg: 0.01, var: 0 }  },
 		],
 		"*-alder": [
 			{ type: "item", code: "game:stick", quantity: { avg: 0.02, var: 0 }  },
-			{ type: "item", code: "wildcrafttree:willowcane-alder", quantity: { avg: 0.1, var: 0 }  },
-			{ type: "item", code: "wildcrafttree:treeseed-alder", quantity: { avg: 0.04, var: 0 }  },
+			{ type: "item", code: "willowcane-alder", quantity: { avg: 0.1, var: 0 }  },
+			{ type: "item", code: "treeseed-alder", quantity: { avg: 0.04, var: 0 }  },
 		],
 		"*-wiliwili": [
 			{ type: "item", code: "game:stick", quantity: { avg: 0.02, var: 0 }  },
-			{ type: "item", code: "wildcrafttree:treeseed-wiliwili", quantity: { avg: 0.04, var: 0 }  },
+			{ type: "item", code: "treeseed-wiliwili", quantity: { avg: 0.04, var: 0 }  },
 		],
 		"*-heather": [
 			{ type: "item", code: "game:stick", quantity: { avg: 0.02, var: 0 }  },
-			{ type: "item", code: "wildcrafttree:treeseed-heather", quantity: { avg: 0.04, var: 0 }  },
+			{ type: "item", code: "treeseed-heather", quantity: { avg: 0.04, var: 0 }  },
 		],
 		"*-crownofthorns": [
 			{ type: "item", code: "game:stick", quantity: { avg: 0.02, var: 0 }  },
-			{ type: "item", code: "wildcrafttree:treeseed-crownofthorns", quantity: { avg: 0.04, var: 0 }  },
+			{ type: "item", code: "treeseed-crownofthorns", quantity: { avg: 0.04, var: 0 }  },
 		],
 		"*-brideinwhite": [
 			{ type: "item", code: "game:stick", quantity: { avg: 0.02, var: 0 }  },
-			{ type: "item", code: "wildcrafttree:leaves-brideinwhite", quantity: { avg: 0.6, var: 0 }  },
-			{ type: "item", code: "wildcrafttree:willowcane-brideinwhite", quantity: { avg: 0.1, var: 0 }  },
-			{ type: "item", code: "wildcrafttree:treeseed-brideinwhite", quantity: { avg: 0.04, var: 0 }  },
+			{ type: "item", code: "leaves-brideinwhite", quantity: { avg: 0.6, var: 0 }  },
+			{ type: "item", code: "willowcane-brideinwhite", quantity: { avg: 0.1, var: 0 }  },
+			{ type: "item", code: "treeseed-brideinwhite", quantity: { avg: 0.04, var: 0 }  },
 		],
 		"*-aspen": [
 			{ type: "item", code: "game:stick", quantity: { avg: 0.02, var: 0 }  },
-			{ type: "item", code: "wildcrafttree:willowcane-aspen", quantity: { avg: 0.1, var: 0 }  },
-			{ type: "item", code: "wildcrafttree:treeseed-aspen", quantity: { avg: 0.04, var: 0 }  },
+			{ type: "item", code: "willowcane-aspen", quantity: { avg: 0.1, var: 0 }  },
+			{ type: "item", code: "treeseed-aspen", quantity: { avg: 0.04, var: 0 }  },
 		],
 		"*-redwillow": [
 			{ type: "item", code: "game:stick", quantity: { avg: 0.02, var: 0 }  },
-			{ type: "item", code: "wildcrafttree:leaves-willow", quantity: { avg: 0.6, var: 0 }  },
-			{ type: "item", code: "wildcrafttree:willowcane-redwillow", quantity: { avg: 0.1, var: 0 }  },
-			{ type: "item", code: "wildcrafttree:treeseed-redwillow", quantity: { avg: 0.04, var: 0 }  },
+			{ type: "item", code: "leaves-willow", quantity: { avg: 0.6, var: 0 }  },
+			{ type: "item", code: "willowcane-redwillow", quantity: { avg: 0.1, var: 0 }  },
+			{ type: "item", code: "treeseed-redwillow", quantity: { avg: 0.04, var: 0 }  },
 		],
 		"*-sourwood": [
 			{ type: "item", code: "game:stick", quantity: { avg: 0.02, var: 0 }  },
-			{ type: "item", code: "wildcrafttree:leaves-sourwood", quantity: { avg: 0.6, var: 0 }  },
-			{ type: "item", code: "wildcrafttree:treeseed-sourwood", quantity: { avg: 0.04, var: 0 }  },
+			{ type: "item", code: "leaves-sourwood", quantity: { avg: 0.6, var: 0 }  },
+			{ type: "item", code: "treeseed-sourwood", quantity: { avg: 0.04, var: 0 }  },
 		],
 		"*-fir": [
 			{ type: "item", code: "game:stick", quantity: { avg: 0.02, var: 0 }  },
-			{ type: "item", code: "wildcrafttree:treeseed-fir", quantity: { avg: 0.04, var: 0 }  },
+			{ type: "item", code: "treeseed-fir", quantity: { avg: 0.04, var: 0 }  },
 		],
 		"*-bearnut": [
 			{ type: "item", code: "game:stick", quantity: { avg: 0.02, var: 0 }  },
-			{ type: "item", code: "wildcrafttree:willowcane-bearnut", quantity: { avg: 0.1, var: 0 }  },
-			{ type: "item", code: "wildcrafttree:treeseed-bearnut", quantity: { avg: 0.04, var: 0 }  },
+			{ type: "item", code: "willowcane-bearnut", quantity: { avg: 0.1, var: 0 }  },
+			{ type: "item", code: "treeseed-bearnut", quantity: { avg: 0.04, var: 0 }  },
 		],
 		"*-beech": [
 			{ type: "item", code: "game:stick", quantity: { avg: 0.02, var: 0 }  },
-			{ type: "item", code: "wildcrafttree:treeseed-beech", quantity: { avg: 0.04, var: 0 }  },
+			{ type: "item", code: "treeseed-beech", quantity: { avg: 0.04, var: 0 }  },
 		],
 		"*-saxaul": [
 			{ type: "item", code: "game:stick", quantity: { avg: 0.02, var: 0 }  },
-			{ type: "item", code: "wildcrafttree:treeseed-saxaul", quantity: { avg: 0.04, var: 0 }  },
+			{ type: "item", code: "treeseed-saxaul", quantity: { avg: 0.04, var: 0 }  },
 		],
 		"*-yew": [
 			{ type: "item", code: "game:stick", quantity: { avg: 0.02, var: 0 }  },
-			{ type: "item", code: "wildcrafttree:treeseed-yew", quantity: { avg: 0.04, var: 0 }  },
+			{ type: "item", code: "treeseed-yew", quantity: { avg: 0.04, var: 0 }  },
 		],
 		"*-honeylocust": [
 			{ type: "item", code: "game:stick", quantity: { avg: 0.02, var: 0 }  },
-			{ type: "item", code: "wildcrafttree:willowcane-honeylocust", quantity: { avg: 0.1, var: 0 }  },
-			{ type: "item", code: "wildcrafttree:treeseed-honeylocust", quantity: { avg: 0.04, var: 0 }  },
+			{ type: "item", code: "willowcane-honeylocust", quantity: { avg: 0.1, var: 0 }  },
+			{ type: "item", code: "treeseed-honeylocust", quantity: { avg: 0.04, var: 0 }  },
 		],
 		"*-azobe": [
 			{ type: "item", code: "game:stick", quantity: { avg: 0.02, var: 0 }  },
-			{ type: "item", code: "wildcrafttree:treeseed-azobe", quantity: { avg: 0.04, var: 0 }  },
+			{ type: "item", code: "treeseed-azobe", quantity: { avg: 0.04, var: 0 }  },
 		],
 		"*-cedar": [
 			{ type: "item", code: "game:stick", quantity: { avg: 0.02, var: 0 }  },
-			{ type: "item", code: "wildcrafttree:treeseed-cedar", quantity: { avg: 0.04, var: 0 }  },
+			{ type: "item", code: "treeseed-cedar", quantity: { avg: 0.04, var: 0 }  },
 		],
 		"*-mousetrap": [
 			{ type: "item", code: "game:stick", quantity: { avg: 0.02, var: 0 }  },
-			{ type: "item", code: "wildcrafttree:treeseed-mousetrap", quantity: { avg: 0.04, var: 0 }  },
+			{ type: "item", code: "treeseed-mousetrap", quantity: { avg: 0.04, var: 0 }  },
 		],
 		"*-sapele": [
 			{ type: "item", code: "game:stick", quantity: { avg: 0.02, var: 0 }  },
-			{ type: "item", code: "wildcrafttree:willowcane-sapele", quantity: { avg: 0.1, var: 0 }  },
-			{ type: "item", code: "wildcrafttree:treeseed-sapele", quantity: { avg: 0.04, var: 0 }  },
+			{ type: "item", code: "willowcane-sapele", quantity: { avg: 0.1, var: 0 }  },
+			{ type: "item", code: "treeseed-sapele", quantity: { avg: 0.04, var: 0 }  },
 		],
 		"*-kauri": [
 			{ type: "item", code: "game:stick", quantity: { avg: 0.02, var: 0 }  },
-			{ type: "item", code: "wildcrafttree:treeseed-kauri", quantity: { avg: 0.04, var: 0 }  },
+			{ type: "item", code: "treeseed-kauri", quantity: { avg: 0.04, var: 0 }  },
 		],
 		"*-sal": [
 			{ type: "item", code: "game:stick", quantity: { avg: 0.02, var: 0 }  },
-			{ type: "item", code: "wildcrafttree:treeseed-sal", quantity: { avg: 0.04, var: 0 }  },
+			{ type: "item", code: "treeseed-sal", quantity: { avg: 0.04, var: 0 }  },
 		],
 		"*-tuja": [
 			{ type: "item", code: "game:stick", quantity: { avg: 0.02, var: 0 }  },
-			{ type: "item", code: "wildcrafttree:willowcane-tuja", quantity: { avg: 0.1, var: 0 }  },
-			{ type: "item", code: "wildcrafttree:treeseed-tuja", quantity: { avg: 0.02, var: 0 }  },
+			{ type: "item", code: "willowcane-tuja", quantity: { avg: 0.1, var: 0 }  },
+			{ type: "item", code: "treeseed-tuja", quantity: { avg: 0.02, var: 0 }  },
 		],
 		"*-willow": [
 			{ type: "item", code: "game:stick", quantity: { avg: 0.02, var: 0 }  },
-			{ type: "item", code: "wildcrafttree:leaves-willow", quantity: { avg: 0.6, var: 0 }  },
-			{ type: "item", code: "wildcrafttree:willowcane-willow", quantity: { avg: 0.1, var: 0 }  },
-			{ type: "item", code: "wildcrafttree:treeseed-willow", quantity: { avg: 0.02, var: 0 }  },
+			{ type: "item", code: "leaves-willow", quantity: { avg: 0.6, var: 0 }  },
+			{ type: "item", code: "willowcane-willow", quantity: { avg: 0.1, var: 0 }  },
+			{ type: "item", code: "treeseed-willow", quantity: { avg: 0.02, var: 0 }  },
 		],
 		"*-poplar": [
 			{ type: "item", code: "game:stick", quantity: { avg: 0.02, var: 0 }  },
-			{ type: "item", code: "wildcrafttree:willowcane-poplar", quantity: { avg: 0.1, var: 0 }  },
-			{ type: "item", code: "wildcrafttree:treeseed-poplar", quantity: { avg: 0.02, var: 0 }  },
+			{ type: "item", code: "willowcane-poplar", quantity: { avg: 0.1, var: 0 }  },
+			{ type: "item", code: "treeseed-poplar", quantity: { avg: 0.02, var: 0 }  },
 		],
 		"*-pyramidalpoplar": [
 			{ type: "item", code: "game:stick", quantity: { avg: 0.02, var: 0 }  },
-			{ type: "item", code: "wildcrafttree:willowcane-poplar", quantity: { avg: 0.1, var: 0 }  },
-			{ type: "item", code: "wildcrafttree:treeseed-pyramidalpoplar", quantity: { avg: 0.02, var: 0 }  },
+			{ type: "item", code: "willowcane-poplar", quantity: { avg: 0.1, var: 0 }  },
+			{ type: "item", code: "treeseed-pyramidalpoplar", quantity: { avg: 0.02, var: 0 }  },
 		],
 		"*-eucalyptus": [
 			{ type: "item", code: "game:stick", quantity: { avg: 0.02, var: 0 }  },
-			{ type: "item", code: "wildcrafttree:leaves-eucalyptus", quantity: { avg: 0.6, var: 0 }  },
-			{ type: "item", code: "wildcrafttree:willowcane-eucalyptus", quantity: { avg: 0.1, var: 0 }  },
-			{ type: "item", code: "wildcrafttree:treeseed-eucalyptus", quantity: { avg: 0.02, var: 0 }  },
+			{ type: "item", code: "leaves-eucalyptus", quantity: { avg: 0.6, var: 0 }  },
+			{ type: "item", code: "willowcane-eucalyptus", quantity: { avg: 0.1, var: 0 }  },
+			{ type: "item", code: "treeseed-eucalyptus", quantity: { avg: 0.02, var: 0 }  },
 		],
 		"*": [
 			{ type: "item", code: "game:stick", quantity: { avg: 0.02, var: 0 }  },
-			{ type: "item", code: "wildcrafttree:treeseed-{wood}", quantity: { avg: 0.02, var: 0 }  }
+			{ type: "item", code: "treeseed-{wood}", quantity: { avg: 0.02, var: 0 }  }
 		]
 	},
     "sounds": {

@@ -104,7 +104,7 @@
     "items": [ "*" ],
     "wildcraftfruit": [ "*" ]
   },
-  "storageFlags": 33,
+  
   "nutritionPropsByType": {
    "*-chocolate": {
       "satiety": 160,

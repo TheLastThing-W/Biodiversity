@@ -1,8 +1,8 @@
 {
 	code: "slantedroofing",
-	behaviors: [{name: "HorizontalOrientable", properties: {  dropBlockFace: "east", drop: { type: "block", code: "wildcrafttree:slantedroofing-{material}-east-free" }  }}],
+	behaviors: [{name: "HorizontalOrientable", properties: {  dropBlockFace: "east", drop: { type: "block", code: "slantedroofing-{material}-east-free" }  }}],
 	variantgroups: [
-		{ code: "material", loadFromProperties: "wildcrafttree:block/wood" },
+		{ code: "material", loadFromProperties: "block/wood" },
 		{ loadFromProperties: "game:abstract/horizontalorientation" },
 		{ code: "cover", states: ["free", "snow"] }
 	],
@@ -18,9 +18,9 @@
 	},
 	texturesByType: {
 		"*": {
-			"acacia1": { base: "wildcrafttree:block/wood/planks/{material}1" },
-			"acacia-top": { base: "wildcrafttree:block/wood/shingles/{material}-top" },
-			"acacia-side": { base: "wildcrafttree:block/wood/shingles/{material}-side" },
+			"acacia1": { base: "block/wood/planks/{material}1" },
+			"acacia-top": { base: "block/wood/shingles/{material}-top" },
+			"acacia-side": { base: "block/wood/shingles/{material}-side" },
 		},
 	},
 	drawtype: "json",

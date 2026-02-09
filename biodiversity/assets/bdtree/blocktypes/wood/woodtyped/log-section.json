@@ -1,0 +1,70 @@
+{
+	"inheritFrom": "game:blocktypes/wood/woodtyped/log-section",
+	"code": "logsection",
+	"variantgroups": [
+		{
+			"code": "type",
+			"states": [ "grown", "placed" ]
+		},
+		{
+			"code": "wood",
+			"states": [ "douglasfir", "redcedar", "kauri", "sycamore", "banyan", "elm", "tamanu" ]
+		},
+		{
+			"code": "segment",
+			"states": [ "ne", "se", "sw", "nw" ]
+		},
+		{
+			"code": "rotation",
+			"states": [ "ud", "ns", "we" ]
+		}
+	],
+	"creativeinventory": {
+		"general": [ "logsection-placed-*-ne-ud" ],
+		"flora": [ "logsection-placed-*-ne-ud" ],
+		"construction": [ "logsection-placed-*-ne-ud" ],
+		"bdtree": [ "logsection-placed-*-ne-ud" ]
+	},
+	"shapeByType": {
+		"*-ud": { "base": "block/wood/log/section-{segment}" },
+		"*-ns": {
+			"base": "block/wood/log/section-{segment}",
+			"rotateX": 90
+		},
+		"*-we": {
+			"base": "block/wood/log/section-{segment}",
+			"rotateX": 90,
+			"rotateZ": 270
+		}
+	},
+	"sounds": {
+		"place": "game:block/planks",
+		"walk": "game:walk/wood",
+		"hit": "game:block/planks",
+		"break": "game:block/planks",
+		"byTool": {
+			"Axe": {
+				"hit": "game:block/chop",
+				"break": "game:block/planks"
+			}
+		}
+	},
+	"combustiblePropsByType": {
+		"*-banyan-*": {
+			"burnTemperature": 800,
+			"burnDuration": 58
+		},
+		"*-douglasfir-*": {
+			"burnTemperature": 800,
+			"burnDuration": 68
+		},
+		"*-redcedar-*": {
+			"burnTemperature": 800,
+			"burnDuration": 110
+		},
+		"*-kauri-*": {
+			"burnTemperature": 800,
+			"burnDuration": 110
+		}
+	}
+}

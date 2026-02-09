@@ -544,7 +544,7 @@
     "items": [ "*" ],
     "wildcraftfruit": [ "*" ]
   },
-  "storageFlags": 33,
+  
   "nutritionPropsByType": {
     "@*-(pomelo|pittedmazzard|marang)": { 
       "satiety": 120, 

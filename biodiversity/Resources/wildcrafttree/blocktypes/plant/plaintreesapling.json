@@ -5,12 +5,12 @@
 		"*": "Sapling",
 	},
 	variantgroups: [
-		{ code: "wood", states: ["bluespruce", "wiliwili", "crownofthorns", "brideinwhite", "alder", "weepingwillow", "redwillow", "pyramidalpoplar", "aspen", "heather", "sourwood", "mousetrap"], loadFromProperties: "wildcrafttree:block/wood" },
-		{ code: "cover", states: ["free", "snow"] },
+		{ code: "wood", states: ["bluespruce", "wiliwili", "crownofthorns", "brideinwhite", "alder", "weepingwillow", "redwillow", "pyramidalpoplar", "aspen", "heather", "sourwood", "mousetrap"], loadFromProperties: "block/wood" },
+		{ code: "cover", states: ["free", "snow"] }
 	],
-	skipVariants: [ "*-chlorociboria-*", "*-petrified-*", "*-charred-*" ],
+	skipVariants: [ "*-chlorociboria", "*-petrified", "*-charred" ],
 	shapeByType: {
-		"*": { base: "wildcrafttree:block/plant/sapling/plaintree/{wood}" },
+		"*": { base: "block/plant/sapling/plaintree/{wood}" },
 	},
 	textures: {
 		"fertlow": { base: "game:block/soil/fertlow" }
@@ -109,12 +109,16 @@
 		plantContainable: {
 			largeContainer: {
 				shapeByType: {
-					"*": { base:  "wildcrafttree:block/plant/sapling/plaintree/potted/{wood}-large" }
+					"*": { base:  "block/plant/sapling/plaintree/potted/{wood}-large" }
 				}
 			}
 		}
 	},
-	creativeinventory: { "general": ["*-free"], "flora": ["*-free"], "wildcrafttree": ["*-free"] },
+	creativeinventory: {
+		"general": [ "*-free" ],
+		"flora": [ "*-free" ],
+		"bdtree": [ "*-free" ]
+	},
 	storageFlags: 33,
 	renderpass: "OpaqueNoCull",
 	drawtypeByType: {
@@ -124,7 +128,7 @@
 	randomDrawOffset: true,
 	randomizeRotations: true,
 	drops: [
-		{ type: "block", code: "wildcrafttree:sapling-{wood}-free", quantity: { avg: 1, var: 0 }  }
+		{ type: "block", code: "sapling-{wood}-free", quantity: { avg: 1, var: 0 }  }
 	],
 	blockmaterial: "Plant",
 	sideopaqueByType: {

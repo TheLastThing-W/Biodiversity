@@ -1,0 +1,323 @@
+{
+  "inheritFrom": "game:blocktypes/plant/leaves/normal",
+  "code": "leaves",
+  // BlockLeaves contains some code for map color tinting, stuff for wind affectedness and random testForDecay server block ticks
+  "class": "BlockLeaves",
+  "behaviorsByType": {
+    "*-grown*-*": [
+      {
+        "name": "PushEventOnBlockBroken",
+        "properties": { "eventName": "testForDecay" }
+      },
+      { "name": "RainDrip" }
+    ],
+    "*": [ { "name": "RainDrip" } ]
+  },
+  "attributes": {
+    "handbook": {
+      "groupBy": [ "leaves-*", "leavesnarrow-*" ],
+      "extraSections": [
+        {
+          "title": "handbook-item-notes",
+          "text": "handbook-item-leaves"
+        }
+      ]
+    },
+    "treeFellingGroupCodeByType": {
+      "*-placed-willow": "0willow",
+      "*-placed1-willow": "1willow",
+      "*-placed2-willow": "2willow",
+      "*-placed3-willow": "3willow",
+      "*-placed4-willow": "4willow",
+      "*-placed5-willow": "5willow",
+      "*-placed6-willow": "6willow",
+      "*-placed7-willow": "7willow",
+
+      "*-placed-bearnut": "0bearnut",
+      "*-placed1-bearnut": "1bearnut",
+      "*-placed2-bearnut": "2bearnut",
+      "*-placed3-bearnut": "3bearnut",
+      "*-placed4-bearnut": "4bearnut",
+      "*-placed5-bearnut": "5bearnut",
+      "*-placed6-bearnut": "6bearnut",
+      "*-placed7-bearnut": "7bearnut",
+
+      "*-placed-leadwood": "0leadwood",
+      "*-placed1-leadwood": "1leadwood",
+      "*-placed2-leadwood": "2leadwood",
+      "*-placed3-leadwood": "3leadwood",
+      "*-placed4-leadwood": "4leadwood",
+      "*-placed5-leadwood": "5leadwood",
+      "*-placed6-leadwood": "6leadwood",
+      "*-placed7-leadwood": "7leadwood",
+
+      "*-placed-bluemahoe": "0bluemahoe",
+      "*-placed1-bluemahoe": "1bluemahoe",
+      "*-placed2-bluemahoe": "2bluemahoe",
+      "*-placed3-bluemahoe": "3bluemahoe",
+      "*-placed4-bluemahoe": "4bluemahoe",
+      "*-placed5-bluemahoe": "5bluemahoe",
+      "*-placed6-bluemahoe": "6bluemahoe",
+      "*-placed7-bluemahoe": "7bluemahoe",
+
+      "*-placed-pyramidalpoplar": "0poplar",
+      "*-placed1-pyramidalpoplar": "1poplar",
+      "*-placed2-pyramidalpoplar": "2poplar",
+      "*-placed3-pyramidalpoplar": "3poplar",
+      "*-placed4-pyramidalpoplar": "4poplar",
+      "*-placed5-pyramidalpoplar": "5poplar",
+      "*-placed6-pyramidalpoplar": "6poplar",
+      "*-placed7-pyramidalpoplar": "7poplar",
+
+      "*-placed-weepingwillow": "0willow",
+      "*-placed1-weepingwillow": "1willow",
+      "*-placed2-weepingwillow": "2willow",
+      "*-placed3-weepingwillow": "3willow",
+      "*-placed4-weepingwillow": "4willow",
+      "*-placed5-weepingwillow": "5willow",
+      "*-placed6-weepingwillow": "6willow",
+      "*-placed7-weepingwillow": "7willow",
+
+      "*-placed-bluespruce": "0spruce",
+      "*-placed1-bluespruce": "1spruce",
+      "*-placed2-bluespruce": "2spruce",
+      "*-placed3-bluespruce": "3spruce",
+      "*-placed4-bluespruce": "4spruce",
+      "*-placed5-bluespruce": "5spruce",
+      "*-placed6-bluespruce": "6spruce",
+      "*-placed7-bluespruce": "7spruce",
+
+      "*-placed-*": "0{wood}",
+      "*-placed1-*": "1{wood}",
+      "*-placed2-*": "2{wood}",
+      "*-placed3-*": "3{wood}",
+      "*-placed4-*": "4{wood}",
+      "*-placed5-*": "5{wood}",
+      "*-placed6-*": "6{wood}",
+      "*-placed7-*": "7{wood}"
+    },
+    "treeFellingGroupSpreadIndex": 0,
+    "canDecayByType": {
+      "*-grown*-*": true
+    }
+  },
+  "variantgroups": [
+    {
+      "code": "type",
+      "states": [ "grown", "placed", "placed1", "placed2", "placed3", "placed4", "placed5", "placed6", "placed7" ]
+    },
+    {
+      "code": "wood",
+      "states": [ "bluespruce", "wiliwili", "crownofthorns", "brideinwhite", "alder", "weepingwillow", "redwillow", "pyramidalpoplar", "aspen", "heather", "sourwood", "mousetrap" ],
+      "loadFromProperties": "bdtree:block/wood"
+    }
+  ],
+  "skipVariants": [ "*-chlorociboria", "*-petrified", "*-charred" ],
+  "creativeinventory": {
+    "general": [ "leaves-placed-*" ],
+    "flora": [ "leaves-placed-*" ],
+    "wildcrafttree": [ "leaves-placed-*" ]
+  },
+  "shape": {
+    "base": "game:block/plant/leaves/normal",
+    "rotateY": 10,
+    "alternates": [
+      { "rotateY": 61 },
+      { "rotateY": 113 },
+      { "rotateY": 164 },
+      { "rotateY": 216 },
+      { "rotateY": 267 },
+      { "rotateY": 319 }
+    ]
+  },
+  "lod0Shape": {
+    "base": "game:block/plant/leaves/normal-lod0",
+    "rotateY": 10,
+    "alternates": [
+      { "rotateY": 61 },
+      { "rotateY": 113 },
+      { "rotateY": 164 },
+      { "rotateY": 216 },
+      { "rotateY": 267 },
+      { "rotateY": 319 }
+    ]
+  },
+  "shapeInventory": { "base": "game:block/plant/leaves/normal-lod0" },
+  "climateColorMapByType": {
+    "*-dalbergia": "climateLighterPlantTint",
+    "*-jacaranda": "climateDarkerPlantTint",
+    "*-douglasfir": "climateDarkerPlantTint",
+    "*-fir": "climateDarkerPlantTint",
+    "*-bluespruce": "climateBlueSpruceTint",
+    "*": "climatePlantTint"
+  },
+  "seasonColorMapByType": {
+    "*-saxaul": "seasonalNeedles",
+    "*-spruce": "seasonalNeedles",
+    "*-yew": "seasonalNeedles",
+    "*-tuja": "seasonalNeedles",
+    "*-redcedar": "seasonalNeedles",
+    "*-douglasfir": "seasonalNeedles",
+    "*-fir": "seasonalNeedles",
+    "*-kauri": "seasonalNeedles",
+    "*-cedar": "seasonalNeedles",
+    "*-redwillow": "seasonalMaple",
+    "*-willow": "seasonalBirch",
+    "*-weepingwillow": "seasonalBirch",
+    "*-ginkgo": "seasonalBirch",
+    "*-linden": "seasonalBirch",
+    "*-ash": "seasonalLarch",
+    "*-brideinwhite": "seasonalBirch",
+    "*-sycamore": "seasonalOak",
+    "*-beech": "seasonalOak",
+    "*-wiliwili": "seasonalWiliwili",
+    "*-bluespruce": "seasonalBlueSpruce",
+    "*-bluemahoe": "tropicalKapok",
+    "*-sal": "tropicalKapok",
+    "*-banyan": "tropicalKapok",
+    "*-mahogany": "tropicalKapok",
+    "*-catalpa": "tropicalKapok",
+    "*-satinash": "tropicalKapok",
+    "*-jacaranda": "seasonalNeedles",
+    "*-umnini": "tropicalKapok",
+    "*-guajacum": "tropicalKapok",
+    "*-eucalyptus": "tropicalKapok",
+    "*-mousetrap": "tropicalKapok",
+    "*-spurgetree": "tropicalKapok",
+    "*-heather": "seasonalNeedles",
+    "*-azobe": "tropicalKapok",
+    "*-tamanu": "tropicalKapok",
+    "*-ghostgum": "seasonalFoliage",
+    "*-dalbergia": "tropicalDalbergia",
+    "*-sourwood": "seasonalBlueberry",
+    "*-aspen": "seasonalCranberry",
+    "*": "seasonalFoliage"
+  },
+  "textures": {
+    "largeleavesByType": {
+      "*": { "base": "block/plant/leaves/large/{wood}*" }
+    },
+    "smallleavesByType": {
+      "*": { "base": "block/plant/leaves/small/{wood}*" }
+    }
+  },
+  "drops": [
+    {
+      "type": "item",
+      "code": "treeseed-{wood}",
+      "quantityByType": {
+        "*-douglasfir": {
+          "avg": 0.01,
+          "var": 0
+        },
+        "*-redcedar": {
+          "avg": 0.01,
+          "var": 0
+        },
+        "*-banyan": {
+          "avg": 0.01,
+          "var": 0
+        },
+        "*-alder": {
+          "avg": 0.04,
+          "var": 0
+        },
+        "*-wiliwili": {
+          "avg": 0.04,
+          "var": 0
+        },
+        "*-heather": {
+          "avg": 0.04,
+          "var": 0
+        },
+        "*-crownofthorns": {
+          "avg": 0.04,
+          "var": 0
+        },
+        "*-brideinwhite": {
+          "avg": 0.04,
+          "var": 0
+        },
+        "*-aspen": {
+          "avg": 0.04,
+          "var": 0
+        },
+        "*-redwillow": {
+          "avg": 0.04,
+          "var": 0
+        },
+        "*-sourwood": {
+          "avg": 0.04,
+          "var": 0
+        },
+        "*-fir": {
+          "avg": 0.04,
+          "var": 0
+        },
+        "*-bearnut": {
+          "avg": 0.04,
+          "var": 0
+        },
+        "*-beech": {
+          "avg": 0.04,
+          "var": 0
+        },
+        "*-saxaul": {
+          "avg": 0.04,
+          "var": 0
+        },
+        "*-yew": {
+          "avg": 0.04,
+          "var": 0
+        },
+        "*-honeylocust": {
+          "avg": 0.04,
+          "var": 0
+        },
+        "*-azobe": {
+          "avg": 0.04,
+          "var": 0
+        },
+        "*-cedar": {
+          "avg": 0.04,
+          "var": 0
+        },
+        "*-mousetrap": {
+          "avg": 0.04,
+          "var": 0
+        },
+        "*-sapele": {
+          "avg": 0.04,
+          "var": 0
+        },
+        "*-kauri": {
+          "avg": 0.04,
+          "var": 0
+        },
+        "*-sal": {
+          "avg": 0.04,
+          "var": 0
+        },
+        "*": {
+          "avg": 0.02,
+          "var": 0
+        }
+      }
+    },
+    {
+      "type": "item",
+      "code": "game:stick",
+      "quantity": {
+        "avg": 0.02,
+        "var": 0
+      }
+    }
+  ],
+  "sounds": {
+    "break": "game:block/plant",
+    "place": "game:block/plant",
+    "hit": "game:block/plant",
+    "walk": "game:walk/grass",
+    "inside": "game:walk/inside/leafy/bushrustle*"
+  }
+}

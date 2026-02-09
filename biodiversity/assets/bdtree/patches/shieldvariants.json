@@ -1,0 +1,8 @@
+[
+  {
+    "op": "add",
+    "path": "/attributes/variantGroups/wood/-",
+    "value": "purpleheart",
+    "file": "game:itemtypes/tool/shield.json"
+  }
+]

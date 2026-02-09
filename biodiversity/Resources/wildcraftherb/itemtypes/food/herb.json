@@ -7,7 +7,7 @@
     "materialDensityByType": {
       "*": 600
     },
-    "storageFlags": 33,
+    
     "attributes": {
       "nutritionPropsWhenInMealByType": {
         "*-mustard": {

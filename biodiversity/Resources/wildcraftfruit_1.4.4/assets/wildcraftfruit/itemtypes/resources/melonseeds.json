@@ -15,7 +15,7 @@
 	},
 	"texture": { "base": "items/seeds/{type}" },
 	"creativeinventory": { "general": ["*"], "items": ["*"], "wildcraftfruit": [ "*" ] },
-	"storageFlags": 33,
+	
 	guiTransform: {
 		translation: { x: 0, y: 0, z: 0 },
 		rotation: { x: 159, y: 148, z: 0 },

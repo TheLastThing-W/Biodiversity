@@ -4,7 +4,7 @@
 	entityClass: "Generic",
 	entityBehaviors: [ { name: "SupportBeam" } ],
 	variantgroups: [
-		{ code: "material", loadFromProperties: "wildcrafttree:block/wood" },
+		{ code: "material", loadFromProperties: "block/wood" },
 		{ code: "cover", states: ["free", "snow"] }
 	],
 	attributes: {
@@ -17,7 +17,7 @@
 		"*-snow": { base: "game:block/roofing/beam/ridgeshingle-snow/16" }
 	},
 	texturesByType: {
-		"*": {"material": { base: "wildcrafttree:block/wood/shingles/{material}-side" }
+		"*": {"material": { base: "block/wood/shingles/{material}-side" }
 		}
 	},
 	blockmaterialByType: {

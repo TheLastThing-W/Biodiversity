@@ -266,7 +266,7 @@
     "items": [ "*" ],
     "wildcraftfruit": [ "*" ]
   },
-  "storageFlags": 33,
+  
   "nutritionPropsByType": {
       "@*-(almond|bunya)": { 
       "satiety": 160,

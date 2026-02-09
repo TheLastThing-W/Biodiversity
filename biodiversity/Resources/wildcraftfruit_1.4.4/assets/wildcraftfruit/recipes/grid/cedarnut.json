@@ -4,7 +4,7 @@
     "shapeless": true,
     "ingredients": {
       "K": { "type": "item", "code": "game:knife-*", "isTool": true },
-      "H": { "type": "item", "code": "wildcrafttree:treeseed-cedar" }
+      "H": { "type": "item", "code": "treeseed-cedar" }
     },
     "name": "pinenut",
     "width": 1,

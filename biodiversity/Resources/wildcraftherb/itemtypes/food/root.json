@@ -40,7 +40,7 @@
 		"*-arrowhead": { "base": "wildcraftherb:block/food/arrowheadbulb" },
 		"*": { "base": "game:item/food/vegetable/cattailsroot-cooked" }
 	},
-	"storageFlags": 33,
+	
 	"texturesbytype": {
         "*-bearleek": { 
             "bearleek_bulb": { "base": "wildcraftherb:block/food/roots/bearleek_bulb" }

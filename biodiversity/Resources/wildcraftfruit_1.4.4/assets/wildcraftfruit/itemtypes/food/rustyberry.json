@@ -14,7 +14,7 @@
     "inContainerTexture": {
       "base": "game:block/metal/tarnished/rust2"
     },
-    "storageFlags": 33,
+    
     "nutritionPropsWhenInMealByType": {
     "*-fractureberry": {
       "satiety": 40,

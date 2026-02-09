@@ -14,7 +14,7 @@
     "inContainerTexture": {
       "base": "wildcraftfruit:block/food/pie/fill-cloudberry"
     },
-    "storageFlags": 33,
+    
     "nutritionPropsWhenInMealByType": {
     "*-cloudberrymush": {
       "satiety": 100,

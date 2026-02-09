@@ -60,7 +60,7 @@
     "wildcraftfruit": [ "*" ]
   },
   "materialDensity": 600,
-  "storageFlags": 33,
+  
   "nutritionPropsByType": {
     "@*-(rose|elder|currant)": { 
       "satiety": 20, 

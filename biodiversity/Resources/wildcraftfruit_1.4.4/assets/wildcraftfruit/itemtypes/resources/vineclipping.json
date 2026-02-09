@@ -10,7 +10,7 @@
     "items": [ "*" ],
     "wildcraftfruit": [ "*" ]
   },
-  "storageFlags": 33,
+  
   "variantgroups": [
     {
       "code": "type",

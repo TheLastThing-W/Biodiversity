@@ -7,7 +7,7 @@
 	],
 	shapeByType: {
 		"*": {
-			base: "wildcrafttree:item/amulets/{neck}" 
+			base: "item/amulets/{neck}" 
 		}
 	},
 	storageFlags: 128,

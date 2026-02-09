@@ -14,7 +14,7 @@
 			"*": true
 		} 
 	},
-	"storageFlags": 33,
+	
 	"maxstacksize": 64,
 	"variantgroups": [
         { "loadFromProperties": "wildcraftherb:block/herbseedlings" }

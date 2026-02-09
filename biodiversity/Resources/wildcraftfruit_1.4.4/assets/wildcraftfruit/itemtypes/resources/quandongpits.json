@@ -4,7 +4,7 @@
 	"maxstacksize": 64,
 	"shape": { base: "wildcraftfruit:item/quandongstuff/quandongpits" },
 	"creativeinventory": { "general": ["*"], "items": ["*"], "wildcraftfruit": [ "*" ] },
-	"storageFlags": 33,
+	
 	"guiTransform": {
               "translation": { x: 0, y: 0, z: 0 },
               "rotation": { x: 142, y: -138, z: 2 },
