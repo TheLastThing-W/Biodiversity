@@ -6,8 +6,5 @@
 	},
 	width: 1,
 	height: 2,
-	output: {
-		"type": "block",
-		"code": "game:sign-ground-north"
-	}
+	output: { type: "block", code: "game:sign-ground-north"  }
 }
