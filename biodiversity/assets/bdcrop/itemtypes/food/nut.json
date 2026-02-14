@@ -1,4 +1,5 @@
 {
+  "enabled": false,
   "code": "nut",
   "maxstacksize": 64,
   "behaviors": [

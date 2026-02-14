@@ -79,7 +79,7 @@
 	"variantgroups": [
 		{
 			"code": "type",
-			"states": [ "cucumber", "jonjoli", "caper", "caperberry", "tomato", "chilipepper", "bellpepper" ]
+			"states": [ "cucumber", "tomato", "chilipepper" ]
 		}
 	],
 	"shapebytype": {

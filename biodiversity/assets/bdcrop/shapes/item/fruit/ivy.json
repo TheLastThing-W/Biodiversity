@@ -8,7 +8,7 @@
 	"textureSizes": {
 	},
 	"textures": {
-		"ivy": "items/fruit/ivy"
+		"ivy": "item/food/fruit/ivy"
 	},
 	"elements": [
 		{

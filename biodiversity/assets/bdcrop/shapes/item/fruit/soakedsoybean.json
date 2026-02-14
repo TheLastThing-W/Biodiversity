@@ -8,7 +8,7 @@
 	"textureSizes": {
 	},
 	"textures": {
-		"soybean2": "items/fruit/soakedsoybean"
+		"soybean2": "item/food/fruit/soakedsoybean"
 	},
 	"elements": [
 		{

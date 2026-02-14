@@ -8,7 +8,7 @@
 	"textureSizes": {
 	},
 	"textures": {
-		"watermelon": "items/fruit/honeydewmelon"
+		"watermelon": "item/food/fruit/honeydewmelon"
 	},
 	"elements": [
 		{

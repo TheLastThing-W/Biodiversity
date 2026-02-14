@@ -8,7 +8,7 @@
 	"textureSizes": {
 	},
 	"textures": {
-		"watermelon": "items/fruit/muskmelon"
+		"watermelon": "item/food/fruit/muskmelon"
 	},
 	"elements": [
 		{
