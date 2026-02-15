@@ -1,10 +1,26 @@
 {
-	"enabled": false,
 	"inheritFrom": "game:blocktypes/wood/woodtyped/log-withresin",
 	"code": "log",
-	// BlockLog contains only contains code for OnPickBlock
 	"entityClassByType": {
 		"log-resinharvested-*": "Transient"
+	},
+	"attributesByType": {
+		"log-resinharvested-*": {
+			"transientProps": {
+				"convertFrom": "log-resinharvested-{wood}-ud",
+				"convertTo": "log-resin-{wood}-ud",
+				"inGameHours": "168"
+			},
+			"preventsDecay": true,
+			"treeFellingGroupCode": "{wood}",
+			"treeFellingGroupSpreadIndex": 3
+		},
+		"*": {
+			"preventsDecay": true,
+			"forageStatAffected": true,
+			"treeFellingGroupCode": "{wood}",
+			"treeFellingGroupSpreadIndex": 3
+		}
 	},
 	"behaviorsByType": {
 		"log-resinharvested-*": [
@@ -61,6 +77,7 @@
 		"construction": [ "*" ],
 		"bdtree": [ "*" ]
 	},
+	"drawtype": "json",
 	"shapeByType": {
 		"log-resinharvested-*": {
 			"base": "game:block/wood/log/noresin1",
@@ -129,8 +146,9 @@
 			]
 		}
 	},
+	"textures": {},
 	"texturesByType": {
-		/*
+
 		"log-resin-eucalyptus-ud": {
 			"resin": { "base": "block/redsap" },
 			"bark": { "base": "block/wood/bark/eucalyptus" },
@@ -181,9 +199,7 @@
 				"overlays": [ "game:block/wood/bark/sap2" ]
 			}
 		},
-		*/
 		"*": {
-			"resin": { "base": "game:block/resin" },
 			"bark": { "base": "block/wood/bark/{wood}" },
 			"trunk": { "base": "block/wood/treetrunk/{wood}" },
 			"resinbark1": {

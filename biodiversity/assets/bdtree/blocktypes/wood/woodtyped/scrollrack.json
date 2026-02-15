@@ -8,16 +8,16 @@
 		},
 		"textures": {
 			"charred": {
-				"base": "block/wood/debarked/{material}",
+				"base": "bdtree:block/wood/debarked/{material}",
 				"overlays": []
 			},
 			"material-rim1": {
-				"base": "block/wood/debarked/{material}",
-				"overlays": [ "block/wood/bookshelves/rim1" ]
+				"base": "bdtree:block/wood/debarked/{material}",
+				"overlays": [ "game:block/wood/bookshelves/rim1" ]
 			},
 			"material-rim2": {
-				"base": "block/wood/debarked/{material}",
-				"overlays": [ "block/wood/bookshelves/rim2" ]
+				"base": "bdtree:block/wood/debarked/{material}",
+				"overlays": [ "game:block/wood/bookshelves/rim2" ]
 			}
 		}
 	},

@@ -1,5 +1,4 @@
 {
-	"enabled": false,
 	"inheritFrom": "game:blocktypes/wood/woodtyped/log-section",
 	"code": "logsection",
 	"class": "BlockLogSection",
@@ -10,7 +9,7 @@
 		},
 		{
 			"code": "wood",
-			"loadFromProperties": "bdtree:block/woodsection"
+			"states": [ "douglasfir", "redcedar", "kauri", "sycamore", "banyan", "elm", "tamanu" ]
 		},
 		{
 			"code": "segment",
@@ -86,6 +85,10 @@
 		"*-kauri-*": {
 			"burnTemperature": 800,
 			"burnDuration": 110
+		},
+		"*": {
+			"burnTemperature": 800,
+			"burnDuration": 72
 		}
 	}
 }
