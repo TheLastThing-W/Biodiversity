@@ -1,4 +1,4 @@
-/*[
+[
 	{
 		ingredientPattern: "SLH,ALC",
 		ingredients: {
@@ -65,4 +65,4 @@
 		output: { type: "block", code: "figurehead-wolf", quantity: 1, attributes: { "material": "{material}" } }
 	}
 	
-]*/
+]

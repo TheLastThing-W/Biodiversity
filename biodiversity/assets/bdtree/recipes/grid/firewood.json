@@ -1,4 +1,4 @@
-/*[
+[
 	{
 		ingredientPattern: "A	L",
 		ingredients: {
@@ -37,6 +37,6 @@
 		width: 1,
 		height: 2,
 		name: "Kapok Firewood",
-		output: { type: "item", code: "firewood", quantity: 3  }
+		output: { type: "item", code: "game:firewood", quantity: 3  }
 	}
 ]
