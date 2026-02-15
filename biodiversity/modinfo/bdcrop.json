@@ -1,6 +1,6 @@
 {
   "$schema": "https://moddbcdn.vintagestory.at/schema/modinfo.latest.json",
-  "type": "Code",
+  "type": "Content",
   "modid": "bdcrop",
   "name": "Biodiversity: Crops",
   "authors": [
@@ -15,7 +15,6 @@
   "description": "To be added",
   "version": "1.0.0",
   "dependencies": {
-    "game": "1.21.5",
-    "herbarium": "1.4.1-rc.1"
+    "game": "1.21.5"
   }
 }

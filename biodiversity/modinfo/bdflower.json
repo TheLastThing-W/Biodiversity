@@ -1,7 +1,7 @@
 {
   "$schema": "https://moddbcdn.vintagestory.at/schema/modinfo.latest.json",
-  "type": "Code",
-  "modid": "biodiversity",
+  "type": "Content",
+  "modid": "bdflower",
   "name": "Biodiversity: Flowers and Grass",
   "authors": [
     "Captanredbeard",
@@ -15,7 +15,6 @@
   "description": "To be added",
   "version": "1.0.0",
   "dependencies": {
-    "game": "1.21.5",
-    "herbarium": "1.4.1-rc.1"
+    "game": "1.21.5"
   }
 }
