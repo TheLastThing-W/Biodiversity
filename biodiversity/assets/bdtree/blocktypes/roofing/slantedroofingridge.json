@@ -36,7 +36,7 @@
 	"creativeinventory": {
 		"general": [ "*-ns-free" ],
 		"decorative": [ "*-ns-free" ],
-		"bdtree": [ "*-free" ]
+		"bdtree": [ "*-ns-free" ]
 	},
 	"soundsByType": {
 		"*": {

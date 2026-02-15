@@ -41,7 +41,7 @@
 	"creativeinventory": {
 		"general": [ "*-east-free" ],
 		"decorative": [ "*-east-free" ],
-		"bdtree": [ "*-free" ]
+		"bdtree": [ "*-east-free" ]
 	},
 	"soundsByType": {
 		"*": {
