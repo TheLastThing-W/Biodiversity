@@ -39,8 +39,8 @@
 	}],
 	treeBlocks: {
 		logBlockCode: "log-grown-yew-ud",
-		leavesBlockCode: "leaves-placed-yew",
-		leavesBranchyBlockCode: "leavesbranchy-placed-yew",
+		leavesBlockCode: "leaves-grown-yew",
+		leavesBranchyBlockCode: "leavesbranchy-grown-yew",
 		mossDecorCode: "game:attachingplant-spottymoss"
 	}
 }

@@ -30,8 +30,8 @@
 	}],
 	treeBlocks: {
 		logBlockCode: "lognarrow-grown-wiliwili-ud",
-		leavesBlockCode: "leaves-placed-wiliwili",
-		leavesBranchyBlockCode: "leavesbranchy-placed-wiliwili",
+		leavesBlockCode: "leaves-grown-wiliwili",
+		leavesBranchyBlockCode: "leavesbranchy-grown-wiliwili",
 		vinesBlockCode: "game:wildvine-section-north",
 		vinesEndBlockCode: "game:wildvine-end-north"
 	}

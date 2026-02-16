@@ -30,8 +30,8 @@
 		logBlockCode: "log-grown-honeylocust-ud",
 		otherLogBlockCode: "log-thorny-honeylocust-ud",
 		otherLogChance: 0.4,
-		leavesBlockCode: "leaves-placed-honeylocust",
-		leavesBranchyBlockCode: "leavesbranchy-placed-honeylocust",
+		leavesBlockCode: "leaves-grown-honeylocust",
+		leavesBranchyBlockCode: "leavesbranchy-grown-honeylocust",
 		vinesBlockCode: "game:wildvine-section-north",
 		vinesEndBlockCode: "game:wildvine-end-north"
 	}

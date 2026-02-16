@@ -51,8 +51,8 @@
 	}],
 	"treeBlocks": {
 		"logBlockCode": "log-grown-tamanu-ud",
-		"leavesBlockCode": "leaves-placed-tamanu",
-		"leavesBranchyBlockCode": "leavesbranchy-placed-tamanu",
+		"leavesBlockCode": "leaves-grown-tamanu",
+		"leavesBranchyBlockCode": "leavesbranchy-grown-tamanu",
 		"vinesBlockCode": "game:wildvine-tropical-section-north",
 		"vinesEndBlockCode": "game:wildvine-tropical-end-north",
 		"trunkSegmentBase": "logsection-grown-tamanu-",

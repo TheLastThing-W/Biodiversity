@@ -22,7 +22,7 @@
 	}],
 	treeBlocks: {
 		logBlockCode: "log-grown-ohia-ud",
-		leavesBlockCode: "leaves-placed-ohia",
-		leavesBranchyBlockCode: "leavesbranchy-placed-ohia",
+		leavesBlockCode: "leaves-grown-ohia",
+		leavesBranchyBlockCode: "leavesbranchy-grown-ohia",
 	}
 }

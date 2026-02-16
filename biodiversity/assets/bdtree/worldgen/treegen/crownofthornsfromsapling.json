@@ -30,8 +30,8 @@
 	}],
 	treeBlocks: {
 		logBlockCode: "lognarrow-grown-crownofthorns-ud",
-		leavesBlockCode: "leaves-placed-crownofthorns",
-		leavesBranchyBlockCode: "leavesbranchy-placed-crownofthorns",
+		leavesBlockCode: "leaves-grown-crownofthorns",
+		leavesBranchyBlockCode: "leavesbranchy-grown-crownofthorns",
 		vinesBlockCode: "game:wildvine-section-north",
 		vinesEndBlockCode: "game:wildvine-end-north"
 	}

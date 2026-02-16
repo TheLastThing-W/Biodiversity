@@ -49,8 +49,8 @@
 	}],
     "treeBlocks": {
     	"logBlockCode": "log-grown-redcedar-ud",
-		"leavesBlockCode": "leaves-placed-redcedar",
-		"leavesBranchyBlockCode": "leavesbranchy-placed-redcedar",
+		"leavesBlockCode": "leaves-grown-redcedar",
+		"leavesBranchyBlockCode": "leavesbranchy-grown-redcedar",
 		"vinesBlockCode": "game:wildvine-section-north",
 		"vinesEndBlockCode": "game:wildvine-end-north",
 		"trunkSegmentBase": "logsection-grown-redcedar-",

@@ -21,8 +21,8 @@
 	}],
 	treeBlocks: {
 		logBlockCode: "lognarrow-grown-mousetrap-ud",
-		leavesBlockCode: "leaves-placed-mousetrap",
-		leavesBranchyBlockCode: "leavesbranchy-placed-mousetrap",
+		leavesBlockCode: "leaves-grown-mousetrap",
+		leavesBranchyBlockCode: "leavesbranchy-grown-mousetrap",
 		vinesBlockCode: "game:wildvine-tropical-section-north",
 		vinesEndBlockCode: "game:wildvine-tropical-end-north"
 	}

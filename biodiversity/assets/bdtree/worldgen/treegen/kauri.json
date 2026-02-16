@@ -29,8 +29,8 @@
 	}],
 	treeBlocks: {
 		logBlockCode: "log-grown-kauri-ud",
-		leavesBlockCode: "leaves-placed-kauri",
-		leavesBranchyBlockCode: "leavesbranchy-placed-kauri",
+		leavesBlockCode: "leaves-grown-kauri",
+		leavesBranchyBlockCode: "leavesbranchy-grown-kauri",
 		vinesBlockCode: "game:wildvine-tropical-section-north",
 		vinesEndBlockCode: "game:wildvine-tropical-end-north",
 		mossDecorCode: "game:attachingplant-spottymoss"

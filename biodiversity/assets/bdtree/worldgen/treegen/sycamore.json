@@ -28,8 +28,8 @@
 	}],
 	treeBlocks: {
 		logBlockCode: "log-grown-sycamore-ud",
-		leavesBlockCode: "leaves-placed-sycamore",
-		leavesBranchyBlockCode: "leavesbranchy-placed-sycamore",
+		leavesBlockCode: "leaves-grown-sycamore",
+		leavesBranchyBlockCode: "leavesbranchy-grown-sycamore",
 		vinesBlockCode: "game:wildvine-section-north",
 		vinesEndBlockCode: "game:wildvine-end-north",
 		mossDecorCode: "game:attachingplant-spottymoss"

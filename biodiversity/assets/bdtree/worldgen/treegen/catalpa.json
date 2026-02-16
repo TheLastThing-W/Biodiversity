@@ -29,8 +29,8 @@
 	}],
 	treeBlocks: {
 		logBlockCode: "log-grown-catalpa-ud",
-		leavesBlockCode: "leaves-placed-catalpa",
-		leavesBranchyBlockCode: "leavesbranchy-placed-catalpa",
+		leavesBlockCode: "leaves-grown-catalpa",
+		leavesBranchyBlockCode: "leavesbranchy-grown-catalpa",
 		vinesBlockCode: "game:wildvine-tropical-section-north",
 		vinesEndBlockCode: "game:wildvine-tropical-end-north",
 		mossDecorCode: "game:attachingplant-spottymoss"

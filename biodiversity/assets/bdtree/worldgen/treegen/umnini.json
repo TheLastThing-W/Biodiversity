@@ -29,8 +29,8 @@
 	}],
 	treeBlocks: {
 		logBlockCode: "log-grown-umnini-ud",
-		leavesBlockCode: "leaves-placed-umnini",
-		leavesBranchyBlockCode: "leavesbranchy-placed-umnini",
+		leavesBlockCode: "leaves-grown-umnini",
+		leavesBranchyBlockCode: "leavesbranchy-grown-umnini",
 		vinesBlockCode: "game:wildvine-tropical-section-north",
 		vinesEndBlockCode: "game:wildvine-tropical-end-north",
 		mossDecorCode: "game:attachingplant-spottymoss"

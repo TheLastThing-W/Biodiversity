@@ -29,8 +29,8 @@
 	}],
 	treeBlocks: {
 		logBlockCode: "log-grown-empresstree-ud",
-		leavesBlockCode: "leaves-placed-empresstree",
-		leavesBranchyBlockCode: "leavesbranchy-placed-empresstree",
+		leavesBlockCode: "leaves-grown-empresstree",
+		leavesBranchyBlockCode: "leavesbranchy-grown-empresstree",
 		vinesBlockCode: "game:wildvine-section-north",
 		vinesEndBlockCode: "game:wildvine-end-north", mossDecorCode: "game:attachingplant-spottymoss"
 	}

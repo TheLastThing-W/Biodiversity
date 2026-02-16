@@ -28,8 +28,8 @@
 	}],
 	treeBlocks: {
 		logBlockCode: "lognarrow-grown-redwillow-ud",
-		leavesBlockCode: "leaves-placed-redwillow",
-		leavesBranchyBlockCode: "leavesbranchy-placed-redwillow",
+		leavesBlockCode: "leaves-grown-redwillow",
+		leavesBranchyBlockCode: "leavesbranchy-grown-redwillow",
 		vinesBlockCode: "game:wildvine-section-north",
 		vinesEndBlockCode: "game:wildvine-end-north"
 	}

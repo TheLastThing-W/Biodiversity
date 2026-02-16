@@ -49,8 +49,8 @@
 	}],
     "treeBlocks": {
     	"logBlockCode": "log-grown-douglasfir-ud",
-		"leavesBlockCode": "leaves-placed-douglasfir",
-		"leavesBranchyBlockCode": "leavesbranchy-placed-douglasfir",
+		"leavesBlockCode": "leaves-grown-douglasfir",
+		"leavesBranchyBlockCode": "leavesbranchy-grown-douglasfir",
 		"vinesBlockCode": "game:wildvine-section-north",
 		"vinesEndBlockCode": "game:wildvine-end-north",
 		"trunkSegmentBase": "logsection-grown-douglasfir-",

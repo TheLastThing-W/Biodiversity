@@ -29,8 +29,8 @@
 		logBlockCode: "log-grown-fir-ud",
 		otherLogBlockCode: "log-resin-fir-ud",
 		otherLogChance: 0.01,
-		leavesBlockCode: "leaves-placed-fir",
-		leavesBranchyBlockCode: "leavesbranchy-placed-fir",
+		leavesBlockCode: "leaves-grown-fir",
+		leavesBranchyBlockCode: "leavesbranchy-grown-fir",
 		mossDecorCode: "game:attachingplant-spottymoss"
 	}
 }

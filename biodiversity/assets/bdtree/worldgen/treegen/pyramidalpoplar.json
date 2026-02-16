@@ -28,8 +28,8 @@
 	}],
 	treeBlocks: {
 		logBlockCode: "log-grown-poplar-ud",
-		leavesBlockCode: "leaves-placed-pyramidalpoplar",
-		leavesBranchyBlockCode: "leavesbranchy-placed-pyramidalpoplar",
+		leavesBlockCode: "leaves-grown-pyramidalpoplar",
+		leavesBranchyBlockCode: "leavesbranchy-grown-pyramidalpoplar",
 		vinesBlockCode: "game:wildvine-section-north",
 		vinesEndBlockCode: "game:wildvine-end-north",
 		mossDecorCode: "game:attachingplant-spottymoss"

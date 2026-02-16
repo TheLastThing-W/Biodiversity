@@ -21,8 +21,8 @@
 	}],
 	treeBlocks: {
 		logBlockCode: "log-grown-saxaul-ud",
-		leavesBlockCode: "leaves-placed-saxaul",
-		leavesBranchyBlockCode: "leavesbranchy-placed-saxaul",
+		leavesBlockCode: "leaves-grown-saxaul",
+		leavesBranchyBlockCode: "leavesbranchy-grown-saxaul",
 		vinesBlockCode: "game:wildvine-section-north",
 		vinesEndBlockCode: "game:wildvine-end-north", mossDecorCode: "game:attachingplant-spottymoss"
 	}

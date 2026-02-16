@@ -28,8 +28,8 @@
 	}],
 	treeBlocks: {
 		logBlockCode: "log-grown-saxaul-ud",
-		leavesBlockCode: "leaves-placed-saxaul",
-		leavesBranchyBlockCode: "leavesbranchy-placed-saxaul",
+		leavesBlockCode: "leaves-grown-saxaul",
+		leavesBranchyBlockCode: "leavesbranchy-grown-saxaul",
 		vinesBlockCode: "game:wildvine-tropical-section-north",
 		vinesEndBlockCode: "game:wildvine-tropical-end-north"
 	}

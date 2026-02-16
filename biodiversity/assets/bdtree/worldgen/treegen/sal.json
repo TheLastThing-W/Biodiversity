@@ -28,8 +28,8 @@
     }],
     "treeBlocks": {
 	"logBlockCode": "log-grown-sal-ud",
-	"leavesBlockCode": "leaves-placed-sal",
-	"leavesBranchyBlockCode": "leavesbranchy-placed-sal",
+	"leavesBlockCode": "leaves-grown-sal",
+	"leavesBranchyBlockCode": "leavesbranchy-grown-sal",
 	"vinesBlockCode": "game:wildvine-tropical-section-north",
 	"vinesEndBlockCode": "game:wildvine-tropical-end-north",
 	"mossDecorCode": "game:attachingplant-spottymoss"

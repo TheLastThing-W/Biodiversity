@@ -29,8 +29,8 @@
 	}],
 	treeBlocks: {
 		logBlockCode: "lognarrow-grown-leadwood-ud",
-		leavesBlockCode: "leaves-placed-leadwood",
-		leavesBranchyBlockCode: "leavesbranchy-placed-leadwood",
+		leavesBlockCode: "leaves-grown-leadwood",
+		leavesBranchyBlockCode: "leavesbranchy-grown-leadwood",
 		vinesBlockCode: "game:wildvine-section-north",
 		vinesEndBlockCode: "game:wildvine-end-north"
 	}

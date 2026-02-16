@@ -28,8 +28,8 @@
 	}],
 	treeBlocks: {
 		logBlockCode: "log-grown-linden-ud",
-		leavesBlockCode: "leaves-placed-linden",
-		leavesBranchyBlockCode: "leavesbranchy-placed-linden",
+		leavesBlockCode: "leaves-grown-linden",
+		leavesBranchyBlockCode: "leavesbranchy-grown-linden",
 		vinesBlockCode: "game:wildvine-section-north",
 		vinesEndBlockCode: "game:wildvine-end-north", mossDecorCode: "game:attachingplant-spottymoss"
 	}

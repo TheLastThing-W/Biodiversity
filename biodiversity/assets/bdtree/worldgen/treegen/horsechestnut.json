@@ -28,8 +28,8 @@
 	}],
 	treeBlocks: {
 		logBlockCode: "log-grown-horsechestnut-ud",
-		leavesBlockCode: "leaves-placed-horsechestnut",
-		leavesBranchyBlockCode: "leavesbranchy-placed-horsechestnut",
+		leavesBlockCode: "leaves-grown-horsechestnut",
+		leavesBranchyBlockCode: "leavesbranchy-grown-horsechestnut",
 		vinesBlockCode: "game:wildvine-section-north",
 		vinesEndBlockCode: "game:wildvine-end-north",
 		mossDecorCode: "game:attachingplant-spottymoss"

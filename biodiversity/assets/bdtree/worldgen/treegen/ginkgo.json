@@ -30,8 +30,8 @@
 	}],
 	treeBlocks: {
 		logBlockCode: "log-grown-ginkgo-ud",
-		leavesBlockCode: "leaves-placed-ginkgo",
-		leavesBranchyBlockCode: "leavesbranchy-placed-ginkgo",
+		leavesBlockCode: "leaves-grown-ginkgo",
+		leavesBranchyBlockCode: "leavesbranchy-grown-ginkgo",
 		vinesBlockCode: "game:wildvine-section-north",
 		vinesEndBlockCode: "game:wildvine-end-north",
 		mossDecorCode: "game:attachingplant-spottymoss"

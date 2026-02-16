@@ -29,8 +29,8 @@
 		logBlockCode: "log-grown-spruce-ud",
 		otherLogBlockCode: "log-resin-spruce-ud",
 		otherLogChance: 0.02,
-		leavesBlockCode: "leaves-placed-bluespruce",
-		leavesBranchyBlockCode: "leavesbranchy-placed-bluespruce",
+		leavesBlockCode: "leaves-grown-bluespruce",
+		leavesBranchyBlockCode: "leavesbranchy-grown-bluespruce",
 		mossDecorCode: "game:attachingplant-spottymoss"
 	}
 }

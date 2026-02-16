@@ -28,8 +28,8 @@
 	}],
 	treeBlocks: {
 		logBlockCode: "log-grown-beech-ud",
-		leavesBlockCode: "leaves-placed-beech",
-		leavesBranchyBlockCode: "leavesbranchy-placed-beech",
+		leavesBlockCode: "leaves-grown-beech",
+		leavesBranchyBlockCode: "leavesbranchy-grown-beech",
 		vinesBlockCode: "game:wildvine-section-north",
 		vinesEndBlockCode: "game:wildvine-end-north",
 		mossDecorCode: "game:attachingplant-spottymoss"

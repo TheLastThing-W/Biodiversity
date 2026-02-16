@@ -31,8 +31,8 @@
 		logBlockCode: "log-grown-mangrove-ud",
 		otherLogBlockCode: "log-resin-mangrove-ud",
 		otherLogChance: 0.3,
-		leavesBlockCode: "leaves-placed-mangrove",
-		leavesBranchyBlockCode: "leavesbranchy-placed-mangrove",
+		leavesBlockCode: "leaves-grown-mangrove",
+		leavesBranchyBlockCode: "leavesbranchy-grown-mangrove",
 		vinesBlockCode: "game:wildvine-tropical-section-north",
 		vinesEndBlockCode: "game:wildvine-tropical-end-north",
 		mossDecorCode: "game:attachingplant-spottymoss"

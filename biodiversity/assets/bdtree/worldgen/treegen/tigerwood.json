@@ -29,8 +29,8 @@
 	}],
 	treeBlocks: {
 		logBlockCode: "log-grown-tigerwood-ud",
-		leavesBlockCode: "leaves-placed-tigerwood",
-		leavesBranchyBlockCode: "leavesbranchy-placed-tigerwood",
+		leavesBlockCode: "leaves-grown-tigerwood",
+		leavesBranchyBlockCode: "leavesbranchy-grown-tigerwood",
 		vinesBlockCode: "game:wildvine-tropical-section-north",
 		vinesEndBlockCode: "game:wildvine-tropical-end-north",
 		mossDecorCode: "game:attachingplant-spottymoss"

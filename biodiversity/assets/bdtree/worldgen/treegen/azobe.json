@@ -28,8 +28,8 @@
 	}],
 	treeBlocks: {
 		logBlockCode: "log-grown-azobe-ud",
-		leavesBlockCode: "leaves-placed-azobe",
-		leavesBranchyBlockCode: "leavesbranchy-placed-azobe",
+		leavesBlockCode: "leaves-grown-azobe",
+		leavesBranchyBlockCode: "leavesbranchy-grown-azobe",
 		vinesBlockCode: "game:wildvine-tropical-section-north",
 		vinesEndBlockCode: "game:wildvine-tropical-end-north",
 		mossDecorCode: "game:attachingplant-spottymoss"

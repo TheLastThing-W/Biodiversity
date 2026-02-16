@@ -50,8 +50,8 @@
 	}],
 	treeBlocks: {
 		logBlockCode: "log-grown-elm-ud",
-		leavesBlockCode: "leaves-placed-elm",
-		leavesBranchyBlockCode: "leavesbranchy-placed-elm",
+		leavesBlockCode: "leaves-grown-elm",
+		leavesBranchyBlockCode: "leavesbranchy-grown-elm",
 		vinesBlockCode: "game:wildvine-section-north",
 		vinesEndBlockCode: "game:wildvine-end-north",
 		mossDecorCode: "game:attachingplant-spottymoss",

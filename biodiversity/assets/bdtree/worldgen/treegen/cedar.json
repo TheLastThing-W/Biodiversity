@@ -29,8 +29,8 @@
 		logBlockCode: "log-grown-cedar-ud",
 		otherLogBlockCode: "log-resin-cedar-ud",
 		otherLogChance: 0.01,
-		leavesBlockCode: "leaves-placed-cedar",
-		leavesBranchyBlockCode: "leavesbranchy-placed-cedar",
+		leavesBlockCode: "leaves-grown-cedar",
+		leavesBranchyBlockCode: "leavesbranchy-grown-cedar",
 		vinesBlockCode: "game:wildvine-section-north",
 		vinesEndBlockCode: "game:wildvine-end-north",
 		mossDecorCode: "game:attachingplant-spottymoss"

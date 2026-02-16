@@ -29,8 +29,8 @@
 	}],
 	treeBlocks: {
 		logBlockCode: "log-grown-ohia-ud",
-		leavesBlockCode: "leaves-placed-ohia",
-		leavesBranchyBlockCode: "leavesbranchy-placed-ohia",
+		leavesBlockCode: "leaves-grown-ohia",
+		leavesBranchyBlockCode: "leavesbranchy-grown-ohia",
 		vinesBlockCode: "game:wildvine-tropical-section-north",
 		vinesEndBlockCode: "game:wildvine-tropical-end-north",
 		mossDecorCode: "game:attachingplant-spottymoss"

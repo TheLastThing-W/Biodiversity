@@ -28,8 +28,8 @@
     }],
     "treeBlocks": {
 	"logBlockCode": "log-grown-sapele-ud",
-	"leavesBlockCode": "leaves-placed-sapele",
-	"leavesBranchyBlockCode": "leavesbranchy-placed-sapele",
+	"leavesBlockCode": "leaves-grown-sapele",
+	"leavesBranchyBlockCode": "leavesbranchy-grown-sapele",
 	"vinesBlockCode": "game:wildvine-tropical-section-north",
 	"vinesEndBlockCode": "game:wildvine-tropical-end-north",
 	"mossDecorCode": "game:attachingplant-spottymoss"

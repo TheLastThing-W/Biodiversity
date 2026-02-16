@@ -29,8 +29,8 @@
 	}],
 	treeBlocks: {
 		logBlockCode: "log-grown-banyan-ud",
-		leavesBlockCode: "leaves-placed-banyan",
-		leavesBranchyBlockCode: "leavesbranchy-placed-banyan",
+		leavesBlockCode: "leaves-grown-banyan",
+		leavesBranchyBlockCode: "leavesbranchy-grown-banyan",
 		vinesBlockCode: "game:wildvine-tropical-section-north",
 		vinesEndBlockCode: "game:wildvine-tropical-end-north",
 		mossDecorCode: "game:attachingplant-spottymoss"

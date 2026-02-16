@@ -28,8 +28,8 @@
 	}],
 	treeBlocks: {
 		logBlockCode: "lognarrow-grown-alder-ud",
-		leavesBlockCode: "leaves-placed-alder",
-		leavesBranchyBlockCode: "leavesbranchy-placed-alder",
+		leavesBlockCode: "leaves-grown-alder",
+		leavesBranchyBlockCode: "leavesbranchy-grown-alder",
 		vinesBlockCode: "game:wildvine-section-north",
 		vinesEndBlockCode: "game:wildvine-end-north"
 	}

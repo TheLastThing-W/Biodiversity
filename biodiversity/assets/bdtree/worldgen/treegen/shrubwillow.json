@@ -21,7 +21,7 @@
 	}],
 	treeBlocks: {
 		logBlockCode: "log-grown-willow-ud",
-		leavesBlockCode: "leaves-placed-willow",
-		leavesBranchyBlockCode: "leavesbranchy-placed-willow",
+		leavesBlockCode: "leaves-grown-willow",
+		leavesBranchyBlockCode: "leavesbranchy-grown-willow",
 	}
 }

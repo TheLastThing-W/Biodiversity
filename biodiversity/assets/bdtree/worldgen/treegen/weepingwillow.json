@@ -28,8 +28,8 @@
 	}],
 	treeBlocks: {
 		logBlockCode: "log-grown-willow-ud",
-		leavesBlockCode: "leaves-placed-weepingwillow",
-		leavesBranchyBlockCode: "leavesbranchy-placed-weepingwillow",
+		leavesBlockCode: "leaves-grown-weepingwillow",
+		leavesBranchyBlockCode: "leavesbranchy-grown-weepingwillow",
 		vinesBlockCode: "game:wildvine-section-north",
 		vinesEndBlockCode: "game:wildvine-end-north",
 		mossDecorCode: "game:attachingplant-spottymoss"

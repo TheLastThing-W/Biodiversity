@@ -31,8 +31,8 @@
 		logBlockCode: "log-grown-eucalyptus-ud",
 		otherLogBlockCode: "log-resin-eucalyptus-ud",
 		otherLogChance: 0.02,
-		leavesBlockCode: "leaves-placed-eucalyptus",
-		leavesBranchyBlockCode: "leavesbranchy-placed-eucalyptus",
+		leavesBlockCode: "leaves-grown-eucalyptus",
+		leavesBranchyBlockCode: "leavesbranchy-grown-eucalyptus",
 		vinesBlockCode: "game:wildvine-tropical-section-north",
 		vinesEndBlockCode: "game:wildvine-tropical-end-north",
 		mossDecorCode: "game:attachingplant-spottymoss"

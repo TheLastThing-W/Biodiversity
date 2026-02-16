@@ -29,8 +29,8 @@
 	}],
 	treeBlocks: {
 		logBlockCode: "log-grown-mahogany-ud",
-		leavesBlockCode: "leaves-placed-mahogany",
-		leavesBranchyBlockCode: "leavesbranchy-placed-mahogany",
+		leavesBlockCode: "leaves-grown-mahogany",
+		leavesBranchyBlockCode: "leavesbranchy-grown-mahogany",
 		vinesBlockCode: "game:wildvine-tropical-section-north",
 		vinesEndBlockCode: "game:wildvine-tropical-end-north",
 		mossDecorCode: "game:attachingplant-spottymoss"

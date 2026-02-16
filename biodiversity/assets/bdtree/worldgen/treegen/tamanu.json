@@ -31,8 +31,8 @@
 		logBlockCode: "log-grown-tamanu-ud",
 		otherLogBlockCode: "log-resin-tamanu-ud",
 		otherLogChance: 0.02,
-		leavesBlockCode: "leaves-placed-tamanu",
-		leavesBranchyBlockCode: "leavesbranchy-placed-tamanu",
+		leavesBlockCode: "leaves-grown-tamanu",
+		leavesBranchyBlockCode: "leavesbranchy-grown-tamanu",
 		vinesBlockCode: "game:wildvine-tropical-section-north",
 		vinesEndBlockCode: "game:wildvine-tropical-end-north",
 		mossDecorCode: "game:attachingplant-spottymoss"
