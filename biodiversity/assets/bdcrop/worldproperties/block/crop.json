@@ -1,5 +1,5 @@
 {
-    "code": "crops",
+    "code": "crop",
   "variants": [
     {
       "code": "leek"
@@ -9,6 +9,12 @@
     },
     {
       "code": "celery"
+    },
+    {
+      "code": "potato"
+    },
+    {
+      "code": "blagoeahgjkera"
     }
   ]
   }
