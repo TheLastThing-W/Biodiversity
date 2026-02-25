@@ -33,7 +33,7 @@
 	sideao: { all: false },
 	drops: [],
 	cropProps: {
-		behaviors: [{name: "Melon", properties: {vineGrowthStage: 3, vineWitherStage: 8, vineGrowthQuantity: { dist: "invexp", avg: 2, var: 3  }, melonBlockCode: "watermelon", domainCode: "bdcrop" }}],
+		behaviors: [{name: "biodiversity.BlockCropVine", properties: {vineGrowthStage: 3, vineWitherStage: 8, vineGrowthQuantity: { dist: "invexp", avg: 2, var: 3  }, melonBlockCode: "watermelon", domainCode: "bdcrop" }}],
 		requiredNutrient: "N",
 		nutrientConsumption: 30,
 		growthStages: 8,

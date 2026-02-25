@@ -1,7 +1,7 @@
 {
 	code: "muskmelon",
 	class: "Block",
-	entityClass: "MelonVine",
+	entityClass: "biodiversity.MelonVine",
 	variantgroups: [
 		{ code: "variant", states: ["vine"] },
 		{ code: "stage", states: ["1-normal", "2-normal", "3-normal", "3-blooming", "4-withered"] },
