@@ -6,15 +6,13 @@
   "authors": [
     "Captanredbeard",
     "WhiskeySunshine",
-    "VirtusMarik",
-    "Sigmadron",
-    "Ледяная Соня (WC)",
-    "CATASTEROID (WC)",
-    "Gabb (WC)"
+    "The Last Thing"
   ],
+  "contributors": [ "Sigmadron", "Greybones", "Pizza2004", "FuegoFish", "AllégroSky", "Alcoraiden", "AcuteAangle" ],
+  "website": "https://discord.com/invite/w79wShAD8q",
   "description": "To be added",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "dependencies": {
-    "game": "1.22.0-pre.1"
+    "game": "1.22.0-pre.3"
   }
 }
