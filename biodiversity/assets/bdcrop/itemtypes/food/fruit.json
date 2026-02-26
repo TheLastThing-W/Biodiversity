@@ -153,6 +153,7 @@
 		"*": {
 			"scale": 2.5
 		},
+	},
 	"groundTransformByType": {
 		"@*-(watermelon|mirzamelon|muskmelon|honeydewmelon|canteloupe)": {
 			"translation": {
