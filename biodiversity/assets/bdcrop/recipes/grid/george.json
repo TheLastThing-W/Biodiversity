@@ -1,0 +1,14 @@
+[
+  {
+    "ingredientPattern": "K,P",
+    "width": 1,
+    "height": 2,
+    "showInCreatedBy": false,
+    "ingredients": {
+      "K": { "type": "item", "code": "game:knife-*", "isTool": true },
+      "P": { "type": "item", "code": "naplessquash-fruit-4" }
+    },
+    "name": "george",
+    "output": { "type": "item", "code": "george", "quantity": 2 }
+  },
+]

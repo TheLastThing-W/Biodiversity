@@ -100,20 +100,8 @@
 		"*-ripe": [
 			{
 				type: "item",
-				code: "plantdebris-leafy",
-				quantity: { "avg": 3 }
-			},
-			{
-				type: "item",
 				code: "fruit-redcurrant",
 				quantity: { "avg": 4.4 }
-			}
-		],
-		"*": [
-			{
-				type: "item",
-				code: "plantdebris-leafy",
-				quantity: { "avg": 3 }
 			}
 		]
 	},
