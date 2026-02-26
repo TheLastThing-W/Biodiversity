@@ -42,24 +42,24 @@
 	sideao: { all: false },
 	texturesByType: {
 		"mirzamelon-vine-3-blooming": {
-			"north": { base: "block/plant/cropvine/vinestage3-blooming-north" },
-			"south": { base: "block/plant/cropvine/vinestage3-blooming-south" }
+			"north": { base: "block/plant/cropvine/vine/stage3-blooming-north" },
+			"south": { base: "block/plant/cropvine/vine/stage3-blooming-south" }
 		},
 		"mirzamelon-vine-1-normal": {
-			"north": { base: "block/plant/cropvine/vinestage1-north" },
-			"south": { base: "block/plant/cropvine/vinestage1-south" }
+			"north": { base: "block/plant/cropvine/vine/stage1-north" },
+			"south": { base: "block/plant/cropvine/vine/stage1-south" }
 		},
 		"mirzamelon-vine-2-normal": {
-			"north": { base: "block/plant/cropvine/vinestage2-north" },
-			"south": { base: "block/plant/cropvine/vinestage2-south" }
+			"north": { base: "block/plant/cropvine/vine/stage2-north" },
+			"south": { base: "block/plant/cropvine/vine/stage2-south" }
 		},
 		"mirzamelon-vine-3-normal": {
-			"north": { base: "block/plant/cropvine/vinestage3-north" },
-			"south": { base: "block/plant/cropvine/vinestage3-south" }
+			"north": { base: "block/plant/cropvine/vine/stage3-north" },
+			"south": { base: "block/plant/cropvine/vine/stage3-south" }
 		},
 		"mirzamelon-vine-4-withered": {
-			"north": { base: "block/plant/cropvine/vinestage4-north" },
-			"south": { base: "block/plant/cropvine/vinestage4-south" }
+			"north": { base: "block/plant/cropvine/vine/stage4-north" },
+			"south": { base: "block/plant/cropvine/vine/stage4-south" }
 		}
 	},
 	replaceable: 5800,

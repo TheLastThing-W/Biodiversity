@@ -45,11 +45,11 @@
 	},
 	texturesByType: {
 		"crop-mirzamelon-1": {
-			"all": { base: "block/plant/cropvine/stage1-northandsouth" }
+			"all": { base: "block/plant/cropvine/motherplant/stage1-northandsouth" }
 		},
 		"crop-mirzamelon-*": {
-			"south": { base: "block/plant/cropvine/stage{stage}-south" },
-			"north": { base: "block/plant/cropvine/stage{stage}-north" },
+			"south": { base: "block/plant/cropvine/motherplant/stage{stage}-south" },
+			"north": { base: "block/plant/cropvine/motherplant/stage{stage}-north" },
 		}
 	},
 	replaceable: 6001,

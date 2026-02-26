@@ -12,7 +12,7 @@
 	],
 	maxstacksize: 8,
 	storageFlags: 33,
-	creativeinventory: { "general": ["muskmelon-fruit-4"], "flora": ["muskmelon-fruit-4"], "bdcrop": ["muskmelon-fruit-4"] },
+	creativeinventory: { "general": ["muskmelon-fruit-4"], "flora": ["muskmelon-fruit-4"], "bdcrop": ["muskmelon-fruit-*"] },
 	shape: { base: "block/plant/cropvine/muskmelon/muskmelon-stage{stage}" },
 	blockmaterial: "Plant",
 	randomizeRotations: true,

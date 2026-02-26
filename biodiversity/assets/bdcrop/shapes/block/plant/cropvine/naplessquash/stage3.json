@@ -6,41 +6,114 @@
 	"textureWidth": 16,
 	"textureHeight": 16,
 	"textureSizes": {
+		"stage3side": [16, 16],
+		"stage3top_bottom": [16, 16]
 	},
 	"textures": {
-		"0": "block/plant/cropvine/watermelon/fruitstage1-3"
+		"stage3side": "block/plant/cropvine/naplessquash/stage3side",
+		"stage3top_bottom": "block/plant/cropvine/naplessquash/stage3top_bottom"
 	},
 	"elements": [
 		{
-			"name": "Cube1",
-			"from": [ 4.0, 0.0, 4.0 ], 
-			"to": [ 12.0, 8.0, 12.0 ], 
-			"rotationOrigin": [ 10.0, 0.0, 10.0 ],
-			"faces": {
-				"north": { "texture": "#0", "uv": [ 8.0, 8.0, 16.0, 16.0 ] },
-				"east": { "texture": "#0", "uv": [ 8.0, 8.0, 16.0, 16.0 ], "rotation": 180 },
-				"south": { "texture": "#0", "uv": [ 8.0, 8.0, 16.0, 16.0 ] },
-				"west": { "texture": "#0", "uv": [ 8.0, 8.0, 16.0, 16.0 ], "rotation": 180 },
-				"up": { "texture": "#0", "uv": [ 8.0, 0.0, 16.0, 8.0 ] },
-				"down": { "texture": "#0", "uv": [ 8.0, 0.0, 16.0, 8.0 ] }
-			},
+			"name": "Origin2",
+			"from": [8.5, 8, 16],
+			"to": [8.5, 8, 16],
+			"rotationOrigin": [8.5, 8, 16],
 			"children": [
 				{
-					"name": "Cube2",
-					"from": [ 3.5, 8.0, 3.5 ], 
-					"to": [ 4.5, 9.5, 4.5 ], 
-					"rotationOrigin": [ 3.5, 8.0, 3.5 ],
-					"rotationX": 8.0,
-					"rotationZ": -7.0,
-					"faces": {
-						"north": { "texture": "#0", "uv": [ 15.0, 0.0, 16.0, 1.5 ] },
-						"east": { "texture": "#0", "uv": [ 15.0, 7.5, 16.0, 9.0 ] },
-						"south": { "texture": "#0", "uv": [ 8.0, 7.5, 9.0, 9.0 ] },
-						"west": { "texture": "#0", "uv": [ 8.0, 0.0, 9.0, 1.5 ] },
-						"up": { "texture": "#0", "uv": [ 11.5, 4.0, 12.5, 5.0 ] },
-						"down": { "texture": "#0", "uv": [ 0.0, 0.0, 1.0, 1.0 ], "enabled": false }
-					}
+					"name": "Body3",
+					"from": [3.25, 0.6, 0],
+					"to": [3.25, 0.6, 0],
+					"rotationOrigin": [3.25, 0.6, 0],
+					"children": [
+						{
+							"name": "Neck2",
+							"from": [-2, -7, 0],
+							"to": [-2, -7, 0],
+							"rotationOrigin": [-2, -7, 0],
+							"rotationY": -5,
+							"children": [
+								{
+									"name": "Cube_I",
+									"from": [-2.5, -1.5, -1.9],
+									"to": [6, 2.5, 2.1],
+									"rotationOrigin": [4, -1, -0.4],
+									"faces": {
+										"north": {"texture": "#stage3side", "uv": [4.5, 5, 8.5, 14], "rotation": 90, "autoUv": false, "snapUv": false},
+										"east": {"texture": "#stage3top_bottom", "uv": [6, 8, 10, 12], "autoUv": false, "snapUv": false},
+										"south": {"texture": "#stage3side", "uv": [6, 5, 10, 14], "rotation": 90, "autoUv": false, "snapUv": false},
+										"west": {"texture": "#stage3top_bottom", "uv": [6, 8, 10, 12], "autoUv": false, "snapUv": false},
+										"up": {"texture": "#stage3side", "uv": [11.5, 14, 7.5, 5], "rotation": 90, "autoUv": false, "snapUv": false},
+										"down": {"texture": "#stage3side", "uv": [12, 5.5, 8, 14.5], "rotation": 270, "autoUv": false, "snapUv": false}
+									}
+								},
+								{
+									"name": "stump",
+									"from": [5.4, 0.05, -0.05],
+									"to": [7.4, 0.55, 0.45],
+									"rotationOrigin": [5.4, -0.7, 0.2],
+									"faces": {
+										"north": {"texture": "#stage3side", "uv": [6, 8, 8, 9], "autoUv": false, "snapUv": false},
+										"east": {"texture": "#stage3top_bottom", "uv": [3, 9, 4, 10], "autoUv": false, "snapUv": false},
+										"south": {"texture": "#stage3side", "uv": [5.5, 7, 7.5, 8], "autoUv": false, "snapUv": false},
+										"west": {"texture": "#stage3top_bottom", "uv": [7.5, 9.5, 8.5, 10.5], "autoUv": false, "snapUv": false},
+										"up": {"texture": "#stage3side", "uv": [7, 10.5, 5, 9.5], "autoUv": false, "snapUv": false},
+										"down": {"texture": "#stage3side", "uv": [6.5, 10.5, 4.5, 11.5], "rotation": 180, "autoUv": false, "snapUv": false}
+									},
+									"rotationY": 5
+								},
+								{
+									"name": "Body4",
+									"from": [2.4, 0, 0.6],
+									"to": [2.4, 0, 0.6],
+									"rotationOrigin": [2.4, 0, 0.6],
+									"rotationY": -12.5,
+									"children": [
+										{
+											"name": "Cube_II",
+											"from": [-9.1, -1.8, -1.8],
+											"to": [-4.3, 2.8, 2.8],
+											"rotationOrigin": [-4.5, -1, 0],
+											"faces": {
+												"north": {"texture": "#stage3side", "uv": [3.5, 8.5, 8.5, 13.5], "rotation": 90, "autoUv": false, "snapUv": false},
+												"east": {"texture": "#stage3top_bottom", "uv": [5, 7.5, 10, 12.5], "rotation": 90, "autoUv": false, "snapUv": false},
+												"south": {"texture": "#stage3side", "uv": [2.5, 5, 7.5, 10], "rotation": 90, "autoUv": false, "snapUv": false},
+												"west": {"texture": "#stage3top_bottom", "uv": [5.5, 7.5, 10.5, 12.5], "rotation": 90, "autoUv": false, "snapUv": false},
+												"up": {"texture": "#stage3side", "uv": [12.5, 12, 7.5, 7], "rotation": 90, "autoUv": false, "snapUv": false},
+												"down": {"texture": "#stage3side", "uv": [9.5, 7.5, 4.5, 12.5], "rotation": 270, "autoUv": false, "snapUv": false}
+											}
+										},
+										{
+											"name": "Bottom2",
+											"from": [-2.9, 0, 0],
+											"to": [-2.9, 0, 0],
+											"rotationOrigin": [-2.9, 0, 0],
+											"rotationY": -5,
+											"children": [
+												{
+													"name": "Cube_III",
+													"from": [-8.6, -1.6, -1.1],
+													"to": [-5, 2.6, 3.1],
+													"rotationOrigin": [-7, -1, 0.5],
+													"faces": {
+														"north": {"texture": "#stage3side", "uv": [3.5, 5.5, 7.5, 9.5], "rotation": 90, "autoUv": false, "snapUv": false},
+														"east": {"texture": "#stage3top_bottom", "uv": [6, 8, 10, 12], "autoUv": false, "snapUv": false},
+														"south": {"texture": "#stage3side", "uv": [3.5, 6, 7.5, 10], "rotation": 90, "autoUv": false, "snapUv": false},
+														"west": {"texture": "#stage3top_bottom", "uv": [6, 8, 10, 12], "rotation": 180, "autoUv": false, "snapUv": false},
+														"up": {"texture": "#stage3side", "uv": [10.5, 12, 6.5, 8], "rotation": 90, "autoUv": false, "snapUv": false},
+														"down": {"texture": "#stage3side", "uv": [9.5, 9, 5.5, 13], "rotation": 270, "autoUv": false, "snapUv": false}
+													}
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
 				}
 			]
 		}
-	]}
+	],
+	"animations": []
+}
