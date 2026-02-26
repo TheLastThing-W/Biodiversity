@@ -680,3 +680,4 @@ fabric.properties
 
 # End of https://www.toptal.com/developers/gitignore/api/csharp,visualstudio,visualstudiocode,rider
 /biodiversity/Wildcraft
+/biodiversity/assets/bdcrop/textures/block/plant/cropvine/cantaloupe/Corel Auto-Preserve
