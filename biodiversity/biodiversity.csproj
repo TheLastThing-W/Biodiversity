@@ -66,8 +66,4 @@
 			<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
 		</Content>
 	</ItemGroup>
-	<ItemGroup>
-  <Folder Include="assets\**" />
-  <Folder Include="src\**" />
-	</ItemGroup>
 </Project>
