@@ -1,92 +1,79 @@
 ﻿using biodiversity.src.BlockEntities;
-using System;
-using System.Collections.Generic;
-using System.Text;
 using Vintagestory.API.Common;
-using Vintagestory.API.Config;
 using Vintagestory.API.Datastructures;
 using Vintagestory.API.MathTools;
 using Vintagestory.API.Server;
 
-namespace biodiversity.src.BlockBehaviors.Crops
+namespace biodiversity.src.BlockBehaviors
 {
     public class MelonCropBehavior : CropBehavior
     {
-        //Minimum stage at which vines can grow
         private int vineGrowthStage = 3;
 
-        //Stage at which vines will wither
-        private int vineWitherStage = 8;
-
-        //Probability of vine growth once the minimum vine growth stage is reached
         private float vineGrowthQuantity;
 
-        private AssetLocation vineBlockLocation = null!;
-        NatFloat vineGrowthQuantityGen = NatFloat.Zero;
-        string melonBlockCode = null!;
-        string domainCode = GlobalConstants.DefaultDomain;
+        private AssetLocation vineBlockLocation;
 
-        public MelonCropBehavior(Block block) : base(block)
+        private NatFloat vineGrowthQuantityGen;
+
+        public string melonBlockCode;
+        public string domainCode;
+
+        public MelonCropBehavior(Block block)
+            : base(block)
         {
-
         }
 
         public override void Initialize(JsonObject properties)
         {
             base.Initialize(properties);
 
-            vineGrowthStage = properties["vineGrowthStage"].AsInt(3);
-            vineWitherStage = properties["vineWitherStage"].AsInt(8);
-            vineGrowthQuantityGen = properties["vineGrowthQuantity"].AsObject<NatFloat>();
             melonBlockCode = properties["melonBlockCode"].AsString();
-            domainCode = properties["domainCode"].AsString(block.Code.Domain);
+            //domainCode = Block.Code.ShortDomain();
 
-            vineBlockLocation = new AssetLocation(domainCode + ":" + melonBlockCode + "-vine-1-normal");
-
-            if (vineGrowthQuantityGen == null || melonBlockCode == null)
-            {
-                throw new Exception($"{block.Code.ToString()} does not properly define the properties, vineGrowthQuantity: {vineGrowthQuantityGen}, melonBlockCode: {melonBlockCode}");
-            }
-            else if (vineBlockLocation == null) throw new Exception($"{block.Code.ToString()} could not define vineBlockLocation: {vineBlockLocation}");
+            vineGrowthStage = properties["vineGrowthStage"].AsInt();
+            vineGrowthQuantityGen = properties["vineGrowthQuantity"].AsObject<NatFloat>();
+            vineBlockLocation = new AssetLocation("pumpkin-vine-1-normal");
         }
 
         public override void OnPlanted(ICoreAPI api, ItemSlot itemslot, EntityAgent byEntity, BlockSelection blockSel)
         {
-            vineGrowthQuantity = vineGrowthQuantityGen.nextFloat(1, api.World.Rand);
+            vineGrowthQuantity = vineGrowthQuantityGen.nextFloat(1f, api.World.Rand);
         }
 
         public override bool TryGrowCrop(ICoreAPI api, IFarmlandBlockEntity farmland, double currentTotalHours, int newGrowthStage, ref EnumHandling handling)
         {
-            if (vineGrowthQuantity == 0)
+            if (vineGrowthQuantity == 0f)
             {
-                vineGrowthQuantity = farmland.CropAttributes.GetFloat("vineGrowthQuantity", vineGrowthQuantityGen.nextFloat(1, api.World.Rand));
+                vineGrowthQuantity = farmland.CropAttributes.GetFloat("vineGrowthQuantity", vineGrowthQuantityGen.nextFloat(1f, api.World.Rand));
                 farmland.CropAttributes.SetFloat("vineGrowthQuantity", vineGrowthQuantity);
             }
 
             handling = EnumHandling.PassThrough;
-
             if (newGrowthStage >= vineGrowthStage)
             {
-                if (newGrowthStage == vineWitherStage)
+                if (newGrowthStage == 8)
                 {
-                    bool allWithered = true;
-                    foreach (BlockFacing facing in BlockFacing.HORIZONTALS)
+                    bool flag = true;
+                    BlockFacing[] hORIZONTALS = BlockFacing.HORIZONTALS;
+                    foreach (BlockFacing facing in hORIZONTALS)
                     {
                         Block block = api.World.BlockAccessor.GetBlock(farmland.Pos.AddCopy(facing).Up());
                         if (block.Code.PathStartsWith(melonBlockCode + "-vine"))
                         {
-                            allWithered &= block.LastCodePart() == "withered";
+                            flag &= block.LastCodePart() == "withered";
                         }
                     }
 
-                    if (!allWithered)
+                    if (!flag)
                     {
                         handling = EnumHandling.PreventDefault;
                     }
+
                     return false;
                 }
 
-                if (api.World.Rand.NextDouble() < vineGrowthQuantity)
+                if (api.World.Rand.NextDouble() < (double)vineGrowthQuantity)
                 {
                     return TrySpawnVine(api, farmland, currentTotalHours);
                 }
@@ -97,18 +84,16 @@ namespace biodiversity.src.BlockBehaviors.Crops
 
         private bool TrySpawnVine(ICoreAPI api, IFarmlandBlockEntity farmland, double currentTotalHours)
         {
-            BlockPos motherplantPos = farmland.UpPos;
-            foreach (BlockFacing facing in BlockFacing.HORIZONTALS)
+            BlockPos upPos = farmland.UpPos;
+            BlockFacing[] hORIZONTALS = BlockFacing.HORIZONTALS;
+            foreach (BlockFacing facing in hORIZONTALS)
             {
-                BlockPos candidatePos = motherplantPos.AddCopy(facing);
-                Block block = api.World.BlockAccessor.GetBlock(candidatePos);
-                if (CanReplace(block))
+                BlockPos blockPos = upPos.AddCopy(facing);
+                Block block = api.World.BlockAccessor.GetBlock(blockPos);
+                if (CanReplace(block) && CanSupportMelon(api, blockPos.DownCopy()))
                 {
-                    if (CanSupportMelon(api, candidatePos.DownCopy()))
-                    {
-                        DoSpawnVine(api, candidatePos, motherplantPos, facing, currentTotalHours);
-                        return true;
-                    }
+                    DoSpawnVine(api, blockPos, upPos, facing, currentTotalHours);
+                    return true;
                 }
             }
 
@@ -117,15 +102,14 @@ namespace biodiversity.src.BlockBehaviors.Crops
 
         private void DoSpawnVine(ICoreAPI api, BlockPos vinePos, BlockPos motherplantPos, BlockFacing facing, double currentTotalHours)
         {
-            Block vineBlock = api.World.GetBlock(vineBlockLocation);
-            api.World.BlockAccessor.SetBlock(vineBlock.BlockId, vinePos);
-
+            Block block = api.World.GetBlock(vineBlockLocation);
+            api.World.BlockAccessor.SetBlock(block.BlockId, vinePos);
             if (api.World is IServerWorldAccessor)
             {
-                BlockEntity be = api.World.BlockAccessor.GetBlockEntity(vinePos);
-                if (be is BEMelonVine)
+                BlockEntity blockEntity = api.World.BlockAccessor.GetBlockEntity(vinePos);
+                if (blockEntity is BEMelonVine)
                 {
-                    ((BEMelonVine)be).CreatedFromParent(motherplantPos, facing, currentTotalHours);
+                    ((BEMelonVine)blockEntity).CreatedFromParent(motherplantPos, facing, currentTotalHours);
                 }
             }
         }
@@ -136,15 +120,23 @@ namespace biodiversity.src.BlockBehaviors.Crops
             {
                 return true;
             }
-            return block.Replaceable >= 6000 && !block.Code.GetName().Contains(melonBlockCode);
+
+            if (block.Replaceable >= 6000)
+            {
+                return !block.Code.GetName().Contains(melonBlockCode);
+            }
+
+            return false;
         }
 
         public static bool CanSupportMelon(ICoreAPI api, BlockPos pos)
         {
-            Block underblock = api.World.BlockAccessor.GetBlock(pos, BlockLayersAccess.Fluid);
-            if (underblock.IsLiquid()) return false;
-            underblock = api.World.BlockAccessor.GetBlock(pos);
-            return underblock.Replaceable <= 5000;
+            if (api.World.BlockAccessor.GetBlock(pos, 2).IsLiquid())
+            {
+                return false;
+            }
+
+            return api.World.BlockAccessor.GetBlock(pos).Replaceable <= 5000;
         }
     }
 }
