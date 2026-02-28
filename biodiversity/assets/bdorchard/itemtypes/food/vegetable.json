@@ -19,12 +19,11 @@
 	],
 	"attributes": {
 		"juicablepropsbytype": {
-			/*
 			"*-avocado": {
 				"litresPerItem": 0.3125,
 				"liquidStack": {
 					"type": "item",
-					"code": "juiceportion-avocado",
+					"code": "oilportion-avocado",
 					"stacksize": 1
 				},
 				"pressedStack": {
@@ -33,7 +32,6 @@
 					"stacksize": 1
 				}
 			}
-			*/
 		},
 		"inContainerTextureByType": {
 			"*-avocado": { "base": "block/food/pie/fill-avocado" }
@@ -55,12 +53,6 @@
 			"*-avocado": {
 				"satiety": 120,
 				"foodcategory": "Vegetable"
-			}
-		},
-		"inPiePropertiesByType": {
-			"*-avocado": {
-				"texture": "block/food/pie/fill-avocado",
-				"partType": "Filling"
 			}
 		}
 	},
