@@ -1,0 +1,75 @@
+{
+  "game:tabname-bdcrop": "Biodiversity: Crops",
+  "itemdesc-melonseeds-*": "When planting, make sure to leave a lot of extra space around it",
+
+
+  //George
+  "item-george": "George",
+  "itemdesc-george": "What a neat guy!",
+
+  //Seeds
+  "item-seeds-watermelon": "Watermelon seeds",
+  "item-seeds-muskmelon": "Musk melon seeds",
+  "item-seeds-honeydewmelon": "Honeydew melon seeds",
+  "item-seeds-mirzamelon": "Mirza melon seeds",
+
+  "item-seeds-leek": "Leek seeds",
+  "item-seeds-potato": "Potato seeds",
+  "item-seeds-tomato": "Tomato seeds",
+
+  //Vine Crops
+  "item-melonseeds-watermelon": "Watermelon seeds",
+  "block-crop-watermelon-*": "Growing watermelon plant",
+  "block-crop-watermelon-7": "Mature watermelon plant",
+  "block-crop-watermelon-8": "Withered watermelon plant",
+  "block-watermelon-fruit-*": "Growing watermelon",
+  "block-watermelon-fruit-4": "Mature watermelon",
+  "block-watermelon-vine-*": "Growing watermelon vine",
+  "block-watermelon-vine-3-normal": "Mature watermelon vine",
+  "block-watermelon-vine-3-blooming": "Blooming watermelon vine",
+  "block-watermelon-vine-4-withered": "Withered watermelon vine",
+
+  "item-melonseeds-mirzamelon": "Mirza melon seeds",
+  "block-crop-mirzamelon-*": "Growing mirza melon plant",
+  "block-crop-mirzamelon-7": "Mature mirza melon plant",
+  "block-crop-mirzamelon-8": "Withered mirza melon plant",
+  "block-mirzamelon-fruit-*": "Growing mirza melon",
+  "block-mirzamelon-fruit-4": "Mature mirza melon",
+  "block-mirzamelon-vine-*": "Growing mirza melon vine",
+  "block-mirzamelon-vine-3-normal": "Mature mirza melon vine",
+  "block-mirzamelon-vine-3-blooming": "Blooming mirza melon vine",
+  "block-mirzamelon-vine-4-withered": "Withered mirza melon vine",
+
+  "item-melonseeds-muskmelon": "Musk melon seeds",
+  "block-crop-muskmelon-*": "Growing musk melon plant",
+  "block-crop-muskmelon-7": "Mature musk melon plant",
+  "block-crop-muskmelon-8": "Withered musk melon plant",
+  "block-muskmelon-fruit-*": "Growing musk melon",
+  "block-muskmelon-fruit-4": "Mature musk melon",
+  "block-muskmelon-vine-*": "Growing musk melon vine",
+  "block-muskmelon-vine-3-normal": "Mature musk melon vine",
+  "block-muskmelon-vine-3-blooming": "Blooming musk melon vine",
+  "block-muskmelon-vine-4-withered": "Withered musk melon vine",
+
+  "block-crop-honeydewmelon-*": "Growing honeydew melon plant",
+  "block-crop-honeydewmelon-7": "Mature honeydew melon plant",
+  "block-crop-honeydewmelon-8": "Withered honeydew melon plant",
+  "block-honeydewmelon-fruit-*": "Growing honeydew melon",
+  "block-honeydewmelon-fruit-4": "Mature honeydew melon",
+  "block-honeydewmelon-vine-*": "Growing honeydew melon vine",
+  "block-honeydewmelon-vine-3-normal": "Mature honeydew melon vine",
+  "block-honeydewmelon-vine-3-blooming": "Blooming honeydew melon vine",
+  "block-honeydewmelon-vine-4-withered": "Withered honeydew melon vine",
+
+
+  "item-melonseeds-naplessquash": "Naples long squash seeds",
+  "block-crop-naplessquash-*": "Growing naples long squash plant",
+  "block-crop-naplessquash-7": "Mature naples long squash plant",
+  "block-crop-naplessquash-8": "Withered naples long squash plant",
+  "block-naplessquash-fruit-*": "Growing naples long squash",
+  "block-naplessquash-fruit-4": "Mature naples long squash",
+  "block-naplessquash-vine-*": "Growing naples long squash vine",
+  "block-naplessquash-vine-3-normal": "Mature naples long squash vine",
+  "block-naplessquash-vine-3-blooming": "Blooming naples long squash vine",
+  "block-naplessquash-vine-4-withered": "Withered naples long squash vine"
+}
