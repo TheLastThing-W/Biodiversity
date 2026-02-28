@@ -1,7 +1,7 @@
 {
 	code: "muskmelon",
 	class: "Block",
-	entityClass: "MelonVine",
+	entityClass: "biodiversity.MelonVine",
 	variantgroups: [
 		{ code: "variant", states: ["vine"] },
 		{ code: "stage", states: ["1-normal", "2-normal", "3-normal", "3-blooming", "4-withered"] },
@@ -42,24 +42,24 @@
 	sideao: { all: false },
 	texturesByType: {
 		"muskmelon-vine-3-blooming": {
-			"north": { base: "block/plant/cropvine/vinestage3-blooming-north" },
-			"south": { base: "block/plant/cropvine/vinestage3-blooming-south" }
+			"north": { base: "block/plant/cropvine/vine/stage3-blooming-north" },
+			"south": { base: "block/plant/cropvine/vine/stage3-blooming-south" }
 		},
 		"muskmelon-vine-1-normal": {
-			"north": { base: "block/plant/cropvine/vinestage1-north" },
-			"south": { base: "block/plant/cropvine/vinestage1-south" }
+			"north": { base: "block/plant/cropvine/vine/stage1-north" },
+			"south": { base: "block/plant/cropvine/vine/stage1-south" }
 		},
 		"muskmelon-vine-2-normal": {
-			"north": { base: "block/plant/cropvine/vinestage2-north" },
-			"south": { base: "block/plant/cropvine/vinestage2-south" }
+			"north": { base: "block/plant/cropvine/vine/stage2-north" },
+			"south": { base: "block/plant/cropvine/vine/stage2-south" }
 		},
 		"muskmelon-vine-3-normal": {
-			"north": { base: "block/plant/cropvine/vinestage3-north" },
-			"south": { base: "block/plant/cropvine/vinestage3-south" }
+			"north": { base: "block/plant/cropvine/vine/stage3-north" },
+			"south": { base: "block/plant/cropvine/vine/stage3-south" }
 		},
 		"muskmelon-vine-4-withered": {
-			"north": { base: "block/plant/cropvine/vinestage4-north" },
-			"south": { base: "block/plant/cropvine/vinestage4-south" }
+			"north": { base: "block/plant/cropvine/vine/stage4-north" },
+			"south": { base: "block/plant/cropvine/vine/stage4-south" }
 		}
 	},
 	replaceable: 5800,

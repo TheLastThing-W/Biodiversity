@@ -12,7 +12,7 @@
 	],
 	maxstacksize: 8,
 	storageFlags: 33,
-	creativeinventory: { "general": ["mirzamelon-fruit-4"], "flora": ["mirzamelon-fruit-4"], "bdcrop": ["mirzamelon-fruit-4"] },
+	creativeinventory: { "general": ["mirzamelon-fruit-4"], "flora": ["mirzamelon-fruit-4"], "bdcrop": ["mirzamelon-fruit-*"] },
 	shape: { base: "block/plant/cropvine/mirzamelon/mirzamelon-stage{stage}" },
 	blockmaterial: "Plant",
 	randomizeRotations: true,
