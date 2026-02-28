@@ -34,55 +34,13 @@
 				"leafParticlesTexture": { base: "leaves" },
 				"blossomParticlesTexture": { base: "blossom" },
 			},
-			"achacha": {
-				"texturesBasePath": "bdorchard:block/plant/fruittree/achacha/",
-				"seasonColorMap": "tropicalKapok"
-			},
-			"apricot": {
+				"apricot": {
 				"texturesBasePath": "bdorchard:block/plant/fruittree/apricot/"
-			},
-			"aronia": {
-				"texturesBasePath": "bdorchard:block/plant/fruittree/aronia/",
-				"climateColorMap": "climatePlantTint",
-				"seasonColorMap": "seasonalMaple"
 			},
 			"avocado": {
 				"texturesBasePath": "bdorchard:block/plant/fruittree/avocado/",
 				"climateColorMap": "climateDarkerPlantTint",
 				"seasonColorMap": "tropicalKapok"
-			},
-			"ber": {
-				"texturesBasePath": "bdorchard:block/plant/fruittree/ber/",
-				"climateColorMap": "climateDarkerPlantTint"
-			},
-			"bitterorange": {
-				texturesBasePath: "bdorchard:block/plant/fruittree/bitterorange/",
-				climateColorMap: "climateDarkerPlantTint",
-			},
-			"cempedak": {
-				texturesBasePath: "bdorchard:block/plant/fruittree/cempedak/",
-				seasonColorMap: "tropicalKapok"
-			},
-			"cherryplum": {
-				"texturesBasePath": "bdorchard:block/plant/fruittree/cherryplum/",
-				"climateColorMap": "climatePlantTint",
-				"seasonColorMap": "seasonalOak"
-			},
-			"chestnut": {
-				"texturesBasePath": "bdorchard:block/plant/fruittree/chestnut/"
-			},
-			"chinaberry": {
-				"texturesBasePath": "bdorchard:block/plant/fruittree/chinaberry/",
-				"seasonColorMap": "seasonalBirch"
-			},
-			"crabapple": {
-				"texturesBasePath": "bdorchard:block/plant/fruittree/crabapple/",
-				"seasonColorMap": "seasonalCranberry"
-			},
-			"damsonplum": {
-				"texturesBasePath": "bdorchard:block/plant/fruittree/damsonplum/",
-				"climateColorMap": "climatePlantTint",
-				"seasonColorMap": "seasonalWalnut"
 			},
 			"engkala": {
 				"texturesBasePath": "bdorchard:block/plant/fruittree/engkala/",
@@ -96,107 +54,19 @@
 				"texturesBasePath": "bdorchard:block/plant/fruittree/grapefruit/",
 				"climateColorMap": "climateDarkerPlantTint"
 			},
-			"guajava": {
-				"texturesBasePath": "bdorchard:block/plant/fruittree/guajava/",
-				"climateColorMap": "climatePlantTint",
-				"seasonColorMap": "seasonalOlive"
-			},
-			"hawthorn": {
-				"texturesBasePath": "bdorchard:block/plant/fruittree/hawthorn/"
-			},
-			"illawarra": {
-				"texturesBasePath": "bdorchard:block/plant/fruittree/illawarra/",
-				"seasonColorMap": "tropicalKapok"
-			},
-			"jujube": {
-				"texturesBasePath": "bdorchard:block/plant/fruittree/jujube/",
-				"climateColorMap": "climateDarkerPlantTint"
-			},
-			"kasturi": {
-				"texturesBasePath": "bdorchard:block/plant/fruittree/kasturi/",
-			},
 			"lemon": {
 				"texturesBasePath": "bdorchard:block/plant/fruittree/lemon/",
-				"climateColorMap": "climateDarkerPlantTint"
-			},
-			"lemonaspen": {
-				"texturesBasePath": "bdorchard:block/plant/fruittree/lemonaspen/",
 				"climateColorMap": "climateDarkerPlantTint"
 			},
 			"lime": {
 				"texturesBasePath": "bdorchard:block/plant/fruittree/lime/",
 				"climateColorMap": "climateDarkerPlantTint"
 			},
-			"loquat": {
-				"texturesBasePath": "bdorchard:block/plant/fruittree/loquat/"
-			},
-			"macadamia": {
-				"texturesBasePath": "bdorchard:block/plant/fruittree/macadamia/",
-				"climateColorMap": "climatePlantTint",
-				"seasonColorMap": "tropicalKapok"
-			},
-			"makrut": {
-				"texturesBasePath": "bdorchard:block/plant/fruittree/makrut/",
-				"climateColorMap": "climateDarkerPlantTint"
-			},
-			"marang": {
-				texturesBasePath: "bdorchard:block/plant/fruittree/marang/",
-				seasonColorMap: "tropicalKapok"
-			},
-			"mazzard": {
-				"texturesBasePath": "bdorchard:block/plant/fruittree/mazzard/"
-			},
 			"nectarine": {
 				"texturesBasePath": "bdorchard:block/plant/fruittree/nectarine/"
 			},
-			"pomelo": {
-				"texturesBasePath": "bdorchard:block/plant/fruittree/pomelo/",
-				"climateColorMap": "climateDarkerPlantTint"
-			},
-			"pulasan": {
-				texturesBasePath: "bdorchard:block/plant/fruittree/pulasan/",
-				seasonColorMap: "tropicalKapok"
-			},
-			"purpleplum": {
-				"texturesBasePath": "bdorchard:block/plant/fruittree/purpleplum/"
-			},
-			"quince": {
-				"texturesBasePath": "bdorchard:block/plant/fruittree/quince/"
-			},
-			"rambutan": {
-				texturesBasePath: "bdorchard:block/plant/fruittree/rambutan/",
-			},
-			"redcherryplum": {
-				"texturesBasePath": "bdorchard:block/plant/fruittree/redcherryplum/",
-				"climateColorMap": "climateCrimsonKingTint",
-				"seasonColorMap": "seasonalCrimsonKingMaple"
-			},
-			"redplum": {
-				"texturesBasePath": "bdorchard:block/plant/fruittree/redplum/",
-				"climateColorMap": "climatePlantTint",
-				"seasonColorMap": "seasonalOak"
-			},
-			"rowan": {
-				"texturesBasePath": "bdorchard:block/plant/fruittree/rowan/",
-				"climateColorMap": "climatePlantTint",
-				"seasonColorMap": "seasonalBlueberry"
-			},
 			"sandpear": {
 				"texturesBasePath": "bdorchard:block/plant/fruittree/sandpear/"
-			},
-			"silvernettle": {
-				"texturesBasePath": "bdorchard:block/plant/fruittree/silvernettle/",
-				"climateColorMap": "climatePlantTint",
-				"seasonColorMap": "tropicalKapok"
-			},
-			"sorb": {
-				"texturesBasePath": "bdorchard:block/plant/fruittree/sorb/",
-				"climateColorMap": "climatePlantTint",
-				"seasonColorMap": "seasonalBlueberry"
-			},
-			"wani": {
-				"texturesBasePath": "bdorchard:block/plant/fruittree/wani/",
-				"seasonColorMap": "tropicalKapok"
 			}
 		}
 	},
