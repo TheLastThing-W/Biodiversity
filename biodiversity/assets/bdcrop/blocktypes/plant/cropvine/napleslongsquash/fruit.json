@@ -51,9 +51,54 @@
 		]
 	},
 	"attributes": {
+		"groundStorageTransformByType": {
+			"naplessquash-fruit-3": {
+				"origin": {
+					"x": 2.6,
+					"y": -0.05,
+					"z": 0.5
+				},
+				"scale": 0.85
+			},
+
+			"naplessquash-fruit-2": {
+				"translation": {
+					"x": 0,
+					"y": -0.02,
+					"z": 0
+				},
+				"origin": {
+					"x": 0.9,
+					"y": 0,
+					"z": 0.5
+				},
+				"scale": 0.85
+			},
+
+			"naplessquash-fruit-1": {
+				"translation": {
+					"x": 0,
+					"y": -0.1,
+					"z": 0
+				},
+				"origin": {
+					"x": 0.9,
+					"y": 0.5,
+					"z": 0.5
+				},
+				"scale": 0.85
+			},
+			"*": {
+				"translation": {
+					"x": 0.5,
+					"y": -0.1,
+					"z": 0
+				},
+				"scale": 0.85
+			}
+		}
 	},
 	"blockmaterial": "Plant",
-	"randomizeRotations": true,
 	"heldTpIdleAnimation": "holdbothhandslarge",
 	"sideopaque": {
 		"all": false
@@ -149,5 +194,36 @@
 			},
 			"transitionRatio": 1
 		}
-	]
+	],
+	"tpHandTransform": {
+		"translation": {
+			"x": 0,
+			"y": -0.45,
+			"z": -0.1
+		},
+		"rotation": {
+			"x": 100,
+			"y": -6,
+			"z": 14
+		},
+		"origin": {
+			"x": 0,
+			"y": 0,
+			"z": 0.05
+		},
+		"scale": 0.7
+	},
+	"guiTransform": {
+		"rotation": {
+			"x": 35,
+			"y": 21,
+			"z": 47
+		},
+		"origin": {
+			"x": -0.1,
+			"y": 0.3,
+			"z": 0.5
+		},
+		"scale": 1.03
+	}
 }
