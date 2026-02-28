@@ -10,8 +10,8 @@
 		"s": [16,16]
 	},
 	"textures": {
-		"e": "e1",
-		"s": "s1"
+		"s" : "s{stage}",
+		"e" : "e{stage}"
 	},
 	"elements": [
 		{
