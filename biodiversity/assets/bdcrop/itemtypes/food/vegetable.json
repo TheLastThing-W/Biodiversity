@@ -27,6 +27,14 @@
 	],
 	shape: { base: "item/vegetable/{vegetable}" },
 	texture: { base: "item/food/vegetable/{vegetable}" },
+	attributes: {
+		groundStorageTransformByType: {
+		"*-leek":{
+			translation: { x: 0.1, y: -0.46, z: 0.1 },
+			rotation: { x: 0, y: -60, z: -90 }
+		}
+    }
+	},
 	creativeinventory: {
 		"general": [ "*" ],
 		"items": [ "*" ],
@@ -92,22 +100,9 @@
 	materialDensity: 600,
 	guiTransformByType: {
 		"*-tomato": {
-			translation: {
-				x: 0,
-				y: 0,
-				z: 0
-			},
-			rotation: {
-				x: 130,
-				y: 40,
-				z: 36
-			},
-			origin: {
-				x: 0.51,
-				y: 0.15,
-				z: 0.51
-			},
-			scale: 3.5
+			rotation: { x: 112, y: 21, z: 24 },
+			origin: { x: 0.52, y: 0.17, z: 0.55 },
+			scale: 3.41
 		},
 		"*-leek": {
 			translation: { x: -7, y: 1, z: 0.5 },
@@ -154,22 +149,10 @@
 	},
 	tpHandTransformByType: {
 		"*-tomato": {
-			"translation": {
-				x: -0.68,
-				y: -0.18,
-				z: 0.0
-			},
-			"rotation": {
-				x: 45,
-				y: 0,
-				z: -90
-			},
-			"origin": {
-				x: 0.36,
-				y: 0.11,
-				z: 0.45
-			},
-			"scale": 1
+			translation: { x: -1.05, y: -0.1, z: -0.75 },
+			rotation: { x: 43, y: 0, z: -90 },
+			origin: { x: 0.36, y: 0.11, z: 0.45 },
+			scale: 0.5
 		},
 		"*-leek": {
 			translation: { x: -0.3, y: -0.02, z: -0.7 },
@@ -216,22 +199,10 @@
 	},
 	groundTransformByType: {
 		"@*-(tomato)": {
-			translation: {
-				x: 0,
-				y: 0.045,
-				z: 0
-			},
-			rotation: {
-				x: 0,
-				y: 0,
-				z: 0
-			},
-			origin: {
-				x: 0.47,
-				y: 0,
-				z: 0.5
-			},
-			scale: 4.5
+			translation: { x: 0, y: 0.045, z: 0 },
+			rotation: { x: 0, y: 0, z: 0 },
+			origin: { x: 0.47, y: 0, z: 0.5 },
+			scale: 2.5
 		},
 		"@*-(leek)": {
 			translation: { x: 0, y: 0.045, z: 0 },
@@ -256,12 +227,6 @@
 				"z": 0.53
 			},
 			"scale": 2.9
-		}
-	},
-	groundStorageTransformByType: {
-		"*-leek":{
-			translation: { x: 0.1, y: -0.46, z: 0.1 },
-			rotation: { x: 0, y: -60, z: -90 }
 		}
     }
 }
