@@ -1,18 +1,18 @@
 [
   {
-    ingredientPattern: "_H_,_C_,RSF",
-    ingredients: {
+    "ingredientPattern": "_H_,_C_,RSF",
+    "ingredients": {
       "H": {
-        type: "item",
-        tags: [ "tool-hammer" ],
-        isTool: true,
-        toolDurabilityCost: 80
+        "type": "item",
+        "tags": [ "tool-hammer" ],
+        "isTool": true,
+        "toolDurabilityCost": 80
       },
       "C": {
-        type: "item",
-        tags: [ "tool-chisel" ],
-        isTool: true,
-        toolDurabilityCost: 50
+        "type": "item",
+        "tags": [ "tool-chisel" ],
+        "isTool": true,
+        "toolDurabilityCost": 50
       },
       "R": {
         "type": "item",
@@ -28,70 +28,70 @@
         "code": "game:fat-rendered"
       }
     },
-    width: 3,
-    height: 3,
-    output: {
-      type: "block",
-      code: "game:windmillrotor-wood-north",
-      quantity: 1
+    "width": 3,
+    "height": 3,
+    "output": {
+      "type": "block",
+      "code": "game:windmillrotor-wood-north",
+      "quantity": 1
     }
   },
   {
-    ingredientPattern: "_H_,_C_,RSF",
-    ingredients: {
+    "ingredientPattern": "_H_,_C_,RSF",
+    "ingredients": {
       "H": {
-        type: "item",
-        tags: [ "tool-hammer" ],
-        isTool: true,
-        toolDurabilityCost: 80
+        "type": "item",
+        "tags": [ "tool-hammer" ],
+        "isTool": true,
+        "toolDurabilityCost": 80
       },
       "C": {
-        type: "item",
-        tags: [ "tool-chisel" ],
-        isTool: true,
-        toolDurabilityCost: 50
+        "type": "item",
+        "tags": [ "tool-chisel" ],
+        "isTool": true,
+        "toolDurabilityCost": 50
       },
       "R": {
         "type": "item",
         "code": "game:resin"
       },
       "S": {
-        type: "block",
-        code: "logsection-placed-*-ud",
-        quantity: 2
+        "type": "block",
+        "code": "logsection-placed-*-ud",
+        "quantity": 2
       },
       "F": {
         "type": "item",
         "code": "game:fat-rendered"
       }
     },
-    width: 3,
-    height: 3,
-    output: {
-      type: "block",
-      code: "game:windmillrotor-wood-north",
-      quantity: 1
+    "width": 3,
+    "height": 3,
+    "output": {
+      "type": "block",
+      "code": "game:windmillrotor-wood-north",
+      "quantity": 1
     }
   },
   {
-    ingredientPattern: "RBR,BAB,RBR",
-    ingredients: {
+    "ingredientPattern": "RBR,BAB,RBR",
+    "ingredients": {
       "A": {
         "type": "block",
         "tags": [ "supportbeam-wooden" ],
         "quantity": 4
       },
       "B": {
-        type: "item",
-        code: "game:bracket-heavy-{metal}"
+        "type": "item",
+        "code": "game:bracket-heavy-{metal}"
       },
       "R": {
         "type": "item",
         "code": "game:rod-{metal}"
       }
     },
-    allowedVariants: {
-      wood: [
+    "allowedVariants": {
+      "wood": [
         "ash",
         "azobe",
         "banyan",
@@ -135,11 +135,11 @@
         "willow",
         "yew"
       ],
-      metal: [ "iron", "meteoriciron", "steel" ]
+      "metal": [ "iron", "meteoriciron", "steel" ]
     },
-    width: 3,
-    height: 3,
-    output: {
+    "width": 3,
+    "height": 3,
+    "output": {
       "type": "block",
       "code": "game:windmillrotor-metal-north",
       "quantity": 1
@@ -147,19 +147,19 @@
   },
 
   {
-    ingredientPattern: "H_,C_,SF",
-    ingredients: {
+    "ingredientPattern": "H_,C_,SF",
+    "ingredients": {
       "H": {
-        type: "item",
-        tags: [ "tool-hammer" ],
-        isTool: true,
-        toolDurabilityCost: 5
+        "type": "item",
+        "tags": [ "tool-hammer" ],
+        "isTool": true,
+        "toolDurabilityCost": 5
       },
       "C": {
-        type: "item",
-        tags: [ "tool-chisel" ],
-        isTool: true,
-        toolDurabilityCost: 5
+        "type": "item",
+        "tags": [ "tool-chisel" ],
+        "isTool": true,
+        "toolDurabilityCost": 5
       },
       "S": {
         "type": "block",
@@ -171,70 +171,70 @@
         "code": "game:fat-rendered"
       }
     },
-    width: 2,
-    height: 3,
-    output: {
+    "width": 2,
+    "height": 3,
+    "output": {
       "type": "block",
       "code": "game:woodenaxle-ud",
       "quantity": 2
     }
   },
   {
-    ingredientPattern: "H_,C_,SF",
-    ingredients: {
+    "ingredientPattern": "H_,C_,SF",
+    "ingredients": {
       "H": {
-        type: "item",
-        tags: [ "tool-hammer" ],
-        isTool: true,
-        toolDurabilityCost: 5
+        "type": "item",
+        "tags": [ "tool-hammer" ],
+        "isTool": true,
+        "toolDurabilityCost": 5
       },
       "C": {
-        type: "item",
-        tags: [ "tool-chisel" ],
-        isTool: true,
-        toolDurabilityCost: 5
+        "type": "item",
+        "tags": [ "tool-chisel" ],
+        "isTool": true,
+        "toolDurabilityCost": 5
       },
       "S": {
-        type: "block",
-        code: "logsection-placed-*-ud"
+        "type": "block",
+        "code": "logsection-placed-*-ud"
       },
       "F": {
         "type": "item",
         "code": "game:fat-rendered"
       }
     },
-    width: 2,
-    height: 3,
-    output: {
+    "width": 2,
+    "height": 3,
+    "output": {
       "type": "block",
       "code": "game:woodenaxle-ud",
       "quantity": 2
     }
   },
   {
-    ingredientPattern: "HX_,PCP,RSF",
-    ingredients: {
+    "ingredientPattern": "HX_,PCP,RSF",
+    "ingredients": {
       "X": {
-        type: "item",
-        tags: [ "tool-saw" ],
-        isTool: true,
-        toolDurabilityCost: 10
+        "type": "item",
+        "tags": [ "tool-saw" ],
+        "isTool": true,
+        "toolDurabilityCost": 10
       },
       "H": {
-        type: "item",
-        tags: [ "tool-hammer" ],
-        isTool: true,
-        toolDurabilityCost: 10
+        "type": "item",
+        "tags": [ "tool-hammer" ],
+        "isTool": true,
+        "toolDurabilityCost": 10
       },
       "C": {
-        type: "item",
-        tags: [ "tool-chisel" ],
-        isTool: true,
-        toolDurabilityCost: 10
+        "type": "item",
+        "tags": [ "tool-chisel" ],
+        "isTool": true,
+        "toolDurabilityCost": 10
       },
       "S": {
-        type: "block",
-        code: "log-placed-*-ud"
+        "type": "block",
+        "code": "log-placed-*-ud"
       },
       "R": {
         "type": "item",
@@ -249,38 +249,38 @@
         "code": "game:fat-rendered"
       }
     },
-    width: 3,
-    height: 3,
-    output: {
+    "width": 3,
+    "height": 3,
+    "output": {
       "type": "block",
       "code": "game:angledgears-s",
       "quantity": 1
     }
   },
   {
-    ingredientPattern: "HCX,SLS,R_F",
-    ingredients: {
+    "ingredientPattern": "HCX,SLS,R_F",
+    "ingredients": {
       "X": {
-        type: "item",
-        tags: [ "tool-saw" ],
-        isTool: true,
-        toolDurabilityCost: 20
+        "type": "item",
+        "tags": [ "tool-saw" ],
+        "isTool": true,
+        "toolDurabilityCost": 20
       },
       "H": {
-        type: "item",
-        tags: [ "tool-hammer" ],
-        isTool: true,
-        toolDurabilityCost: 20
+        "type": "item",
+        "tags": [ "tool-hammer" ],
+        "isTool": true,
+        "toolDurabilityCost": 20
       },
       "C": {
-        type: "item",
-        tags: [ "tool-chisel" ],
-        isTool: true,
-        toolDurabilityCost: 20
+        "type": "item",
+        "tags": [ "tool-chisel" ],
+        "isTool": true,
+        "toolDurabilityCost": 20
       },
       "L": {
-        type: "block",
-        code: "log-placed-*-ud"
+        "type": "block",
+        "code": "log-placed-*-ud"
       },
       "S": {
         "type": "item",
@@ -296,38 +296,38 @@
         "code": "game:fat-rendered"
       }
     },
-    width: 3,
-    height: 3,
-    output: {
-      type: "block",
-      code: "game:spurgear-s",
-      quantity: 1
+    "width": 3,
+    "height": 3,
+    "output": {
+      "type": "block",
+      "code": "game:spurgear-s",
+      "quantity": 1
     }
   },
   {
-    ingredientPattern: "HX_,PCP,RSF",
-    ingredients: {
+    "ingredientPattern": "HX_,PCP,RSF",
+    "ingredients": {
       "X": {
-        type: "item",
-        tags: [ "tool-saw" ],
-        isTool: true,
-        toolDurabilityCost: 10
+        "type": "item",
+        "tags": [ "tool-saw" ],
+        "isTool": true,
+        "toolDurabilityCost": 10
       },
       "H": {
-        type: "item",
-        tags: [ "tool-hammer" ],
-        isTool: true,
-        toolDurabilityCost: 10
+        "type": "item",
+        "tags": [ "tool-hammer" ],
+        "isTool": true,
+        "toolDurabilityCost": 10
       },
       "C": {
-        type: "item",
-        tags: [ "tool-chisel" ],
-        isTool: true,
-        toolDurabilityCost: 10
+        "type": "item",
+        "tags": [ "tool-chisel" ],
+        "isTool": true,
+        "toolDurabilityCost": 10
       },
       "S": {
-        type: "block",
-        code: "logsection-placed-*-ud"
+        "type": "block",
+        "code": "logsection-placed-*-ud"
       },
       "R": {
         "type": "item",
@@ -342,9 +342,9 @@
         "code": "game:fat-rendered"
       }
     },
-    width: 3,
-    height: 3,
-    output: {
+    "width": 3,
+    "height": 3,
+    "output": {
       "type": "block",
       "code": "game:angledgears-s",
       "quantity": 1
@@ -352,8 +352,8 @@
   },
 
   {
-    ingredientPattern: "_BS,BSL,SL_",
-    ingredients: {
+    "ingredientPattern": "_BS,BSL,SL_",
+    "ingredients": {
       "B": {
         "type": "block",
         "tags": [ "supportbeam-wooden" ],
@@ -371,9 +371,9 @@
         "quantity": 2
       }
     },
-    width: 3,
-    height: 3,
-    output: {
+    "width": 3,
+    "height": 3,
+    "output": {
       "type": "item",
       "code": "game:sail",
       "quantity": 4
