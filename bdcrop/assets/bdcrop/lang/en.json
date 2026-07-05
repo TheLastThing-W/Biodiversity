@@ -13,6 +13,8 @@
   "item-seeds-honeydewmelon": "Honeydew melon seeds",
   "item-seeds-mirzamelon": "Mirza melon seeds",
 
+  "item-seeds-alfalfa": "Alfalfa seeds",
+  "itemdesc-seeds-alfalfa": "A cover crop, can be feed to animals.  Adds Nitrogen to soil",
   "item-seeds-leek": "Leek seeds",
   "item-seeds-potato": "Potato seeds",
   "item-seeds-tomato": "Tomato seeds",
@@ -20,14 +22,18 @@
   "item-seeds-naplessquash": "Naples long squash seeds",
 
   //Block Crops
+  "block-crop-alfalfa-*": "Growing alfalfa",
   "block-crop-leek-*": "Growing leeks",
   "block-crop-potato-*": "Growing potatoes",
   "block-crop-tomato-*": "Growing tomatoes",
+  "block-crop-alfalfa-8": "Mature alfalfa",
   "block-crop-leek-7": "Mature leeks",
   "block-crop-potato-7": "Mature potatoes",
   "block-crop-tomato-7": "Mature tomatoes",
 
   //Food
+  "item-vegetable-alfalfa": "Alfalfa Bundle",
+  "itemdesc-vegetable-alfalfa": "A fodder crop to feed to animals.  You can still eat this, if your desperate.",
   "item-vegetable-leek": "Leek",
   "itemdesc-vegetable-leek": "A green vegetable related to onions, keeps quite well.",
   "item-vegetable-potato": "Potato",
@@ -41,6 +47,15 @@
 
 
   //Vanilla Cooking
+
+  "game:recipeingredient-item-vegetable-alfalfa": "alfalfa",
+  "game:recipeingredient-item-vegetable-alfalfa-insturmentalcase": "alfalfa",
+  "bdcrop:recipeingredient-item-vegetable-alfalfa": "alfalfa",
+  "bdcrop:recipeingredient-item-vegetable-alfalfa-insturmentalcase": "alfalfa",
+  "game:meal-ingredient-stew-primary-vegetable-alfalfa": "alfalfa",
+  "game:meal-ingredient-stew-secondary-vegetable-alfalfa": "alfalfa",
+  "game:meal-ingredient-soup-primary-vegetable-alfalfa": "alfalfa",
+
   "game:recipeingredient-item-vegetable-leek": "leek",
   "game:recipeingredient-item-vegetable-leek-insturmentalcase": "leek",
   "bdcrop:recipeingredient-item-vegetable-leek": "leek",

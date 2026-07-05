@@ -56,5 +56,26 @@
       "var": 4
     },
     "chance": 0.036
+  },
+  /// Cover Crops
+  // Small patches of alfalfa
+  {
+    "blockCodes": [
+      "bdcrop:crop-alfalfa-4",
+      "bdcrop:crop-alfalfa-5",
+      "bdcrop:crop-alfalfa-6",
+      "bdcrop:crop-alfalfa-7",
+      "bdcrop:crop-alfalfa-2"
+    ],
+    "minTemp": -10,
+    "maxTemp": 20,
+    "minRain": 0.35,
+    "maxRain": 0.80,
+    "maxForest": 0.25,
+    "quantity": {
+      "avg": 14,
+      "var": 6
+    },
+    "chance": 0.036
   }
 ]
