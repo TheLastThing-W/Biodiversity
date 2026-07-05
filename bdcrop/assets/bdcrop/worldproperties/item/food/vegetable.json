@@ -2,6 +2,9 @@
   "code": "vegetable",
   "variants": [
     {
+      "code": "alfalfa"
+    },
+    {
       "code": "leek"
     },
     {

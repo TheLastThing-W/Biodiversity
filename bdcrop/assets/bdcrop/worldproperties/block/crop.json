@@ -2,6 +2,9 @@
     "code": "crop",
   "variants": [
     {
+      "code": "alfalfa"
+    },
+    {
       "code": "potato"
     },
     {
