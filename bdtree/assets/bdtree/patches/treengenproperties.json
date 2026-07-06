@@ -601,7 +601,7 @@
     "op": "add",
     "path": "/treegens/-",
     "value": {
-      "Generator": "bdtree:thickkauri",
+      "Generator": "bdtree:largekauri",
       "Weight": 25,
       "MinSize": 0.8,
       "MaxSize": 1.2,
@@ -1134,7 +1134,7 @@
     "op": "add",
     "path": "/treegens/-",
     "value": {
-      "Generator": "bdtree:thicktamanu",
+      "Generator": "bdtree:largetamanu",
       "Weight": 10,
       "SuitabilitySizeBonus": 0.1,
       "MinTemp": 29,
@@ -1223,7 +1223,7 @@
     "op": "add",
     "path": "/treegens/-",
     "value": {
-      "Generator": "bdtree:crownofthorns",
+      "Generator": "bdtree:nrwcrownofthorns",
       "Weight": 15,
       "MinSize": 0.7,
       "MaxSize": 0.9,
