@@ -109,14 +109,9 @@
 				"type": "item",
 				"code": "vegetable-potato",
 				"quantity": {
-					"avg": 0.5,
+					"avg": 0.99,
 					"var": 0
 				}
-			},
-			{
-				"type": "item",
-				"code": "seeds-potato",
-				"quantity": { "avg": 0.99 }
 			}
 		]
 	},
