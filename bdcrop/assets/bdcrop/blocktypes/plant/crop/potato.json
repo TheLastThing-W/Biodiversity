@@ -52,9 +52,9 @@
 	lightAbsorption: 0,
 	resistance: 0.5,
 	sounds: {
-		place: "block/plant",
-		break: "block/plant",
-		hit: "block/plant"
+		place: "game:block/plant",
+		break: "game:block/plant",
+		hit: "game:block/plant"
 	},
 	rainPermeable: false,
 	dropsByType: {
@@ -109,14 +109,9 @@
 				"type": "item",
 				"code": "vegetable-potato",
 				"quantity": {
-					"avg": 0.5,
+					"avg": 0.99,
 					"var": 0
 				}
-			},
-			{
-				"type": "item",
-				"code": "seeds-potato",
-				"quantity": { "avg": 0.99 }
 			}
 		]
 	},
