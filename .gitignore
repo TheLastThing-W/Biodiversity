@@ -399,8 +399,7 @@ FodyWeavers.xsd
 # JetBrains Rider
 *.sln.iml
 
-# Resources folder
-Resources/
+
 
 # Wildcraft folder
 
