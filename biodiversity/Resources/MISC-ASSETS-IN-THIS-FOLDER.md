@@ -1,0 +1,1 @@
+All resources and art assets without a specific submod in mind yet can go into this folder here
