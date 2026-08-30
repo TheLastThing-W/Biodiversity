@@ -5,41 +5,36 @@
 	"variantgroups": [
 		{
 			"code": "type",
-			"states": [ "stubbleturnip" ]
+			"states": [ "buckwheat" ]
 		},
 		{
 			"code": "stage",
-			"states": [ "1", "2", "3", "4", "5" ]
+			"states": [ "1", "2", "3", "4", "5", "6", "7", "8", "9" ]
 		}
 	],
 	"creativeinventory": {
-		"general": [ "*" ],
-		"plants": [ "*" ],
+		"general": [ "" ],
+		"plants": [ "" ],
 		"bdcrop": [ "*" ]
 	},
 	"renderpass": "OpaqueNoCull",
-	"shapeByType": {
-		"*": { "base": "bdcrop:block/plant/crop/stubbleturnip/stage{stage}" }
-	},
+	"shape": { "base": "bdcrop:block/plant/crop/densebuckwheat" },
 	"blockmaterial": "Plant",
-	"randomizeRotations": true,
-	"texturesByType": {
-		"*": {
-			"bulb": { "base": "bdcrop:block/plant/crop/stubbleturnip/stubbler" },
-			"e": { "base": "bdcrop:block/plant/crop/stubbleturnip/e{stage}" },
-			"s": { "base": "bdcrop:block/plant/crop/stubbleturnip/s{stage}" }
-		}
+	"randomizeRotations": false,
+	"textures": {
+		"buckwheat_E": { "base": "bdcrop:block/plant/crop/{type}/buckwheat_E{stage}" },
+		"buckwheat_N": { "base": "bdcrop:block/plant/crop/{type}/buckwheat_N{stage}" }
 	},
 	"attributes": {
 		"foodTags": [ "nibbleCrop" ],
 		"butterflyFeedByType": {
 			"*-1": false,
-			"*-5": false,
+			"*-9": false,
 			"*": true
 		},
 		"beeFeedByType": {
 			"*-1": false,
-			"*-5": false,
+			"*-9": false,
 			"*": true
 		},
 		"sitHeight": 0.55,
@@ -64,51 +59,52 @@
 	},
 	"rainPermeable": false,
 	"dropsByType": {
-		"*-4": [
+		"*-9": [
 			{
 				"type": "item",
-				"code": "bdcrop:seeds-stubbleturnip",
-				"quantity": { "avg": 0.99 }
-			},
-			{
-				"type": "item",
-				"code": "bdcrop:vegetable-stubbleturnip",
-				"quantity": {
-					"avg": 2,
-					"var": 1
-				}
-			}
-		],
-		"*-5": [
-			{
-				"type": "item",
-				"code": "bdcrop:seeds-stubbleturnip",
+				"code": "bdcrop:seeds-buckwheat",
 				"quantity": { "avg": 1.2 }
 			},
 			{
 				"type": "item",
-				"code": "bdcrop:vegetable-stubbleturnip",
+				"code": "bdcrop:grain-buckwheat",
 				"quantity": {
-					"avg": 6,
-					"var": 1
+					"avg": 4,
+					"var": 0.5
+				}
+			}
+		],
+		"*-8": [
+			{
+				"type": "item",
+				"code": "bdcrop:seeds-buckwheat",
+				"quantity": { "avg": 1.0 }
+			},
+			{
+				"type": "item",
+				"code": "bdcrop:grain-buckwheat",
+				"quantity": {
+					"avg": 3,
+					"var": 0.5
 				}
 			}
 		],
 		"*": [
 			{
 				"type": "item",
-				"code": "bdcrop:seeds-stubbleturnip",
+				"code": "bdcrop:seeds-buckwheat",
 				"quantity": { "avg": 0.7 }
 			}
 		]
 	},
 	"cropProps": {
-		// Driller Turnips is a potasium fixer
-		"requiredNutrient": "K",
-		"nutrientConsumption": -7,
-		"growthStages": 5,
-		"totalGrowthMonths": 0.8,
-		"heatDamageAbove": 27
+		// Buckwheat is a Phosphorus fixer
+		"requiredNutrient": "P",
+		"nutrientConsumption": -12,
+		"growthStages": 9,
+		"totalGrowthMonths": 1.78,
+		"coldDamageBelow": 5,
+		"heatDamageAbove": 45
 	},
 	"collisionbox": null,
 	"selectionbox": {
